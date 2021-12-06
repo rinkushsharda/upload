@@ -2014,7 +2014,7 @@ log.info(&quot;Output: &quot; + logCommandOutput.toString());</stringProp>
           </HeaderManager>
           <hashTree/>
           <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">10000</stringProp>
+            <stringProp name="ConstantTimer.delay">240000</stringProp>
           </ConstantTimer>
           <hashTree/>
         </hashTree>
