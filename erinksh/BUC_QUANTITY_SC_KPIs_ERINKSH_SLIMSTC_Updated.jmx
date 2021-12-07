@@ -1910,7 +1910,7 @@ def update_excel_file(int quantity, WritableSheet aCopySheet, int no_of_chara)
           <stringProp name="filename"></stringProp>
           <stringProp name="parameters"></stringProp>
           <boolProp name="resetInterpreter">false</boolProp>
-          <stringProp name="script">Process p = Runtime.getRuntime().exec(&quot;kubectl cp ./${scId}.xls eric-data-object-storage-mn-mgt-56b488846b-mv72q:/tmp/upload/ -n edbtest &quot;);
+          <stringProp name="script">Process p = Runtime.getRuntime().exec(&quot;kubectl cp /home/erinksh/apache-jmeter-5.4.1/bin/${scId}.xls eric-data-object-storage-mn-mgt-56b488846b-mv72q:/tmp/ -n edbtest &quot;);
 p.waitFor();
 
 log.info(&quot;Execution complete.&quot;);
@@ -1931,7 +1931,7 @@ log.info(&quot;Output: &quot; + logCommandOutput.toString());</stringProp>
           <stringProp name="filename"></stringProp>
           <stringProp name="parameters"></stringProp>
           <boolProp name="resetInterpreter">false</boolProp>
-          <stringProp name="script">Process p = Runtime.getRuntime().exec(&quot;kubectl exec -it eric-data-object-storage-mn-mgt-56b488846b-mv72q -n edbtest -- eosc push server eric-data-object-storage-mn user TESTPKEY passwd TESTPKEY local /tmp/upload/${scId}.xls remote quantity-personalization-file&quot;);
+          <stringProp name="script">Process p = Runtime.getRuntime().exec(&quot;kubectl exec -it eric-data-object-storage-mn-mgt-56b488846b-mv72q -n edbtest -- eosc push server eric-data-object-storage-mn user TESTPKEY passwd TESTPKEY local /tmp/${scId}.xls remote quantity-personalization-file&quot;);
 p.waitFor();
 
 log.info(&quot;Execution complete.&quot;);
