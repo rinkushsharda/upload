@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="942" it="0" lt="937" ct="720" ts="1641915778998" s="true" lb="Get CWToken" rc="200" rm="OK" tn="KPI_Existing_Customer 1-1" dt="text" by="1667" sby="223" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/avmSecurity/getToken</java.net.URL>
+</httpSample>
+<httpSample t="100" it="0" lt="100" ct="0" ts="1641915780014" s="false" lb="T1_Create_SC_Customer_InstallBase" rc="500" rm="Internal Server Error" tn="KPI_Existing_Customer 1-1" dt="text" by="469" sby="2575" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/</java.net.URL>
+</httpSample>
+<httpSample t="250" it="0" lt="250" ct="0" ts="1641915780118" s="false" lb="T2_Add_Cart_Item_Optional_POs" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1867" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="81" it="0" lt="81" ct="0" ts="1641915780375" s="false" lb="T3_Add_Cart_Item_Addon" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1864" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="139" it="0" lt="139" ct="0" ts="1641915780459" s="false" lb="T4_Get_SC_By_Id" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="105" it="0" lt="105" ct="0" ts="1641915780601" s="false" lb="T8_Validate_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1678" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/validate</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="0" ts="1641915780708" s="false" lb="T9_Price_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/price</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641915780723" s="false" lb="T6_Get_SC_By_Id_after_price" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="0" ts="1641915780736" s="false" lb="T10_Present_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1811" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641915780761" s="false" lb="T11_Accept_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1809" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="0" ts="1641915780774" s="false" lb="T16_Submit_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/submit</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="12" ct="0" ts="1641915785787" s="false" lb="T20_Revise_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/revise</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641915785802" s="false" lb="T12_Clone_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/clone</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641915785815" s="false" lb="T15_Cancel_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1817" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641915785827" s="false" lb="T18_Delete_SC" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641915785838" s="false" lb="T13_Modify_SC_5Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641915785840" s="false" lb="T14_Modify_SC_10Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<sample t="5829" it="0" lt="774" ct="0" ts="1641915780013" s="false" lb="PLACE ORDER" rc="" rm="Number of samples in transaction : 16, number of failing samples : 16" tn="KPI_Existing_Customer 1-1" dt="" by="9742" sby="23445" ng="1" na="1"/>
+
+<httpSample t="896" it="0" lt="890" ct="699" ts="1641915796234" s="true" lb="Get CWToken" rc="200" rm="OK" tn="KPI_Existing_Customer 1-1" dt="text" by="1667" sby="223" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/avmSecurity/getToken</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="0" ts="1641915797205" s="false" lb="T1_Create_SC_Customer_InstallBase" rc="500" rm="Internal Server Error" tn="KPI_Existing_Customer 1-1" dt="text" by="469" sby="2575" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1641915797232" s="false" lb="T2_Add_Cart_Item_Optional_POs" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1867" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1641915797245" s="false" lb="T3_Add_Cart_Item_Addon" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1864" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1641915797255" s="false" lb="T4_Get_SC_By_Id" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1641915797264" s="false" lb="T8_Validate_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1678" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/validate</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641915797273" s="false" lb="T9_Price_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/price</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641915797282" s="false" lb="T6_Get_SC_By_Id_after_price" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641915797290" s="false" lb="T10_Present_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1811" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641915797298" s="false" lb="T11_Accept_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1809" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641915797306" s="false" lb="T16_Submit_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/submit</java.net.URL>
+</httpSample>
+<httpSample t="17" it="0" lt="17" ct="0" ts="1641915802323" s="false" lb="T20_Revise_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/revise</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641915802346" s="false" lb="T12_Clone_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/clone</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="0" ts="1641915802358" s="false" lb="T15_Cancel_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1817" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641915802371" s="false" lb="T18_Delete_SC" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641915802374" s="false" lb="T13_Modify_SC_5Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641915802376" s="false" lb="T14_Modify_SC_10Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<sample t="5173" it="0" lt="130" ct="0" ts="1641915797204" s="false" lb="PLACE ORDER" rc="" rm="Number of samples in transaction : 16, number of failing samples : 16" tn="KPI_Existing_Customer 1-1" dt="" by="9742" sby="23445" ng="1" na="1"/>
+
+<httpSample t="866" it="0" lt="861" ct="666" ts="1641915812856" s="true" lb="Get CWToken" rc="200" rm="OK" tn="KPI_Existing_Customer 1-1" dt="text" by="1667" sby="223" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/avmSecurity/getToken</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" lt="20" ct="0" ts="1641915813794" s="false" lb="T1_Create_SC_Customer_InstallBase" rc="500" rm="Internal Server Error" tn="KPI_Existing_Customer 1-1" dt="text" by="469" sby="2575" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641915813819" s="false" lb="T2_Add_Cart_Item_Optional_POs" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1867" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641915813832" s="false" lb="T3_Add_Cart_Item_Addon" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1864" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641915813841" s="false" lb="T4_Get_SC_By_Id" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1641915813853" s="false" lb="T8_Validate_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1678" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/validate</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1641915813863" s="false" lb="T9_Price_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/price</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1641915813873" s="false" lb="T6_Get_SC_By_Id_after_price" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="8" ct="0" ts="1641915813883" s="false" lb="T10_Present_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1811" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="0" ts="1641915813893" s="false" lb="T11_Accept_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1809" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641915813905" s="false" lb="T16_Submit_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/submit</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="0" ts="1641915818914" s="false" lb="T20_Revise_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/revise</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641915818929" s="false" lb="T12_Clone_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/clone</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1641915818942" s="false" lb="T15_Cancel_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1817" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641915818953" s="false" lb="T18_Delete_SC" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641915818957" s="false" lb="T13_Modify_SC_5Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641915818959" s="false" lb="T14_Modify_SC_10Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<sample t="5167" it="0" lt="130" ct="0" ts="1641915813793" s="false" lb="PLACE ORDER" rc="" rm="Number of samples in transaction : 16, number of failing samples : 16" tn="KPI_Existing_Customer 1-1" dt="" by="9742" sby="23445" ng="1" na="1"/>
+
+<httpSample t="773" it="0" lt="768" ct="566" ts="1641915829372" s="true" lb="Get CWToken" rc="200" rm="OK" tn="KPI_Existing_Customer 1-1" dt="text" by="1667" sby="223" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/avmSecurity/getToken</java.net.URL>
+</httpSample>
+<httpSample t="21" it="0" lt="20" ct="0" ts="1641915830212" s="false" lb="T1_Create_SC_Customer_InstallBase" rc="500" rm="Internal Server Error" tn="KPI_Existing_Customer 1-1" dt="text" by="469" sby="2575" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641915830236" s="false" lb="T2_Add_Cart_Item_Optional_POs" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1867" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1641915830249" s="false" lb="T3_Add_Cart_Item_Addon" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1864" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="0" ts="1641915830259" s="false" lb="T4_Get_SC_By_Id" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641915830273" s="false" lb="T8_Validate_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1678" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/validate</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="0" ts="1641915830285" s="false" lb="T9_Price_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/price</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="10" ct="0" ts="1641915830297" s="false" lb="T6_Get_SC_By_Id_after_price" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1641915830309" s="false" lb="T10_Present_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1811" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641915830318" s="false" lb="T11_Accept_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1809" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641915830327" s="false" lb="T16_Submit_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/submit</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="0" ts="1641915835337" s="false" lb="T20_Revise_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/revise</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641915835351" s="false" lb="T12_Clone_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/clone</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1641915835359" s="false" lb="T15_Cancel_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1817" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641915835369" s="false" lb="T18_Delete_SC" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641915835373" s="false" lb="T13_Modify_SC_5Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641915835375" s="false" lb="T14_Modify_SC_10Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<sample t="5166" it="0" lt="130" ct="0" ts="1641915830211" s="false" lb="PLACE ORDER" rc="" rm="Number of samples in transaction : 16, number of failing samples : 16" tn="KPI_Existing_Customer 1-1" dt="" by="9742" sby="23445" ng="1" na="1"/>
+
+<httpSample t="866" it="0" lt="861" ct="659" ts="1641915845943" s="true" lb="Get CWToken" rc="200" rm="OK" tn="KPI_Existing_Customer 1-1" dt="text" by="1667" sby="223" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/avmSecurity/getToken</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" lt="20" ct="0" ts="1641915846864" s="false" lb="T1_Create_SC_Customer_InstallBase" rc="500" rm="Internal Server Error" tn="KPI_Existing_Customer 1-1" dt="text" by="469" sby="2575" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1641915846888" s="false" lb="T2_Add_Cart_Item_Optional_POs" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1867" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1641915846902" s="false" lb="T3_Add_Cart_Item_Addon" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1864" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1641915846911" s="false" lb="T4_Get_SC_By_Id" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641915846922" s="false" lb="T8_Validate_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1678" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/validate</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="0" ts="1641915846930" s="false" lb="T9_Price_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/price</java.net.URL>
+</httpSample>
+<httpSample t="58" it="0" lt="58" ct="0" ts="1641915846937" s="false" lb="T6_Get_SC_By_Id_after_price" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="0" ts="1641915846998" s="false" lb="T10_Present_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1811" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1641915847012" s="false" lb="T11_Accept_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1809" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641915847023" s="false" lb="T16_Submit_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/submit</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="0" ts="1641915852039" s="false" lb="T20_Revise_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/revise</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1641915852054" s="false" lb="T12_Clone_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/clone</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1641915852066" s="false" lb="T15_Cancel_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1817" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641915852077" s="false" lb="T18_Delete_SC" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641915852082" s="false" lb="T13_Modify_SC_5Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641915852085" s="false" lb="T14_Modify_SC_10Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<sample t="5222" it="0" lt="173" ct="0" ts="1641915846864" s="false" lb="PLACE ORDER" rc="" rm="Number of samples in transaction : 16, number of failing samples : 16" tn="KPI_Existing_Customer 1-1" dt="" by="9742" sby="23445" ng="1" na="1"/>
+
+<httpSample t="914" it="0" lt="911" ct="713" ts="1641915862343" s="true" lb="Get CWToken" rc="200" rm="OK" tn="KPI_Existing_Customer 1-1" dt="text" by="1667" sby="223" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/avmSecurity/getToken</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="19" ct="0" ts="1641915863312" s="false" lb="T1_Create_SC_Customer_InstallBase" rc="500" rm="Internal Server Error" tn="KPI_Existing_Customer 1-1" dt="text" by="469" sby="2575" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/</java.net.URL>
+</httpSample>
+<httpSample t="17" it="0" lt="17" ct="0" ts="1641915863335" s="false" lb="T2_Add_Cart_Item_Optional_POs" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1867" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1641915863356" s="false" lb="T3_Add_Cart_Item_Addon" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1864" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641915863365" s="false" lb="T4_Get_SC_By_Id" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641915863374" s="false" lb="T8_Validate_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1678" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/validate</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641915863382" s="false" lb="T9_Price_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/price</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="0" ts="1641915863390" s="false" lb="T6_Get_SC_By_Id_after_price" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1641915863398" s="false" lb="T10_Present_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1811" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641915863407" s="false" lb="T11_Accept_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1809" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641915863415" s="false" lb="T16_Submit_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/submit</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="0" ts="1641915868431" s="false" lb="T20_Revise_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/revise</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1641915868446" s="false" lb="T12_Clone_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/clone</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1641915868456" s="false" lb="T15_Cancel_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1817" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641915868468" s="false" lb="T18_Delete_SC" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641915868473" s="false" lb="T13_Modify_SC_5Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641915868476" s="false" lb="T14_Modify_SC_10Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<sample t="5166" it="0" lt="122" ct="0" ts="1641915863311" s="false" lb="PLACE ORDER" rc="" rm="Number of samples in transaction : 16, number of failing samples : 16" tn="KPI_Existing_Customer 1-1" dt="" by="9742" sby="23445" ng="1" na="1"/>
+
+<httpSample t="866" it="0" lt="862" ct="669" ts="1641916193782" s="true" lb="Get CWToken" rc="200" rm="OK" tn="KPI_Existing_Customer 1-1" dt="text" by="1667" sby="223" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/avmSecurity/getToken</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="19" ct="0" ts="1641916194719" s="false" lb="T1_Create_SC_Customer_InstallBase" rc="500" rm="Internal Server Error" tn="KPI_Existing_Customer 1-1" dt="text" by="469" sby="2575" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641916194743" s="false" lb="T2_Add_Cart_Item_Optional_POs" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1867" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="9" ct="0" ts="1641916194756" s="false" lb="T3_Add_Cart_Item_Addon" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1864" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="0" ts="1641916194768" s="false" lb="T4_Get_SC_By_Id" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641916194783" s="false" lb="T8_Validate_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1678" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/validate</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1641916194795" s="false" lb="T9_Price_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/price</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="0" ts="1641916194805" s="false" lb="T6_Get_SC_By_Id_after_price" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641916194813" s="false" lb="T10_Present_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1811" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641916194821" s="false" lb="T11_Accept_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1809" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1641916194830" s="false" lb="T16_Submit_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/submit</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="0" ts="1641916199848" s="false" lb="T20_Revise_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/revise</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1641916199863" s="false" lb="T12_Clone_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/clone</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1641916199874" s="false" lb="T15_Cancel_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1817" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641916199886" s="false" lb="T18_Delete_SC" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641916199892" s="false" lb="T13_Modify_SC_5Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641916199895" s="false" lb="T14_Modify_SC_10Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<sample t="5179" it="0" lt="129" ct="0" ts="1641916194718" s="false" lb="PLACE ORDER" rc="" rm="Number of samples in transaction : 16, number of failing samples : 16" tn="KPI_Existing_Customer 1-1" dt="" by="9742" sby="23445" ng="1" na="1"/>
+
+<httpSample t="880" it="0" lt="875" ct="679" ts="1641916210783" s="true" lb="Get CWToken" rc="200" rm="OK" tn="KPI_Existing_Customer 1-1" dt="text" by="1667" sby="223" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/avmSecurity/getToken</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" lt="20" ct="0" ts="1641916211725" s="false" lb="T1_Create_SC_Customer_InstallBase" rc="500" rm="Internal Server Error" tn="KPI_Existing_Customer 1-1" dt="text" by="469" sby="2575" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641916211749" s="false" lb="T2_Add_Cart_Item_Optional_POs" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1867" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="27" it="0" lt="27" ct="0" ts="1641916211765" s="false" lb="T3_Add_Cart_Item_Addon" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1864" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="21" it="0" lt="21" ct="0" ts="1641916211794" s="false" lb="T4_Get_SC_By_Id" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="16" it="0" lt="16" ct="0" ts="1641916211816" s="false" lb="T8_Validate_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1678" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/validate</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="8" ct="0" ts="1641916211833" s="false" lb="T9_Price_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/price</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1641916211843" s="false" lb="T6_Get_SC_By_Id_after_price" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641916211853" s="false" lb="T10_Present_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1811" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641916211865" s="false" lb="T11_Accept_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1809" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="0" ts="1641916211873" s="false" lb="T16_Submit_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/submit</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="0" ts="1641916216890" s="false" lb="T20_Revise_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/revise</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1641916216905" s="false" lb="T12_Clone_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/clone</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641916216915" s="false" lb="T15_Cancel_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1817" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641916216927" s="false" lb="T18_Delete_SC" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641916216935" s="false" lb="T13_Modify_SC_5Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641916216937" s="false" lb="T14_Modify_SC_10Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<sample t="5214" it="0" lt="172" ct="0" ts="1641916211725" s="false" lb="PLACE ORDER" rc="" rm="Number of samples in transaction : 16, number of failing samples : 16" tn="KPI_Existing_Customer 1-1" dt="" by="9742" sby="23445" ng="1" na="1"/>
+
+<httpSample t="877" it="0" lt="872" ct="670" ts="1641916227983" s="true" lb="Get CWToken" rc="200" rm="OK" tn="KPI_Existing_Customer 1-1" dt="text" by="1667" sby="223" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/avmSecurity/getToken</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="19" ct="0" ts="1641916228933" s="false" lb="T1_Create_SC_Customer_InstallBase" rc="500" rm="Internal Server Error" tn="KPI_Existing_Customer 1-1" dt="text" by="469" sby="2575" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641916228956" s="false" lb="T2_Add_Cart_Item_Optional_POs" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1867" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="9" ct="0" ts="1641916228971" s="false" lb="T3_Add_Cart_Item_Addon" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1864" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1641916228983" s="false" lb="T4_Get_SC_By_Id" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1641916228994" s="false" lb="T8_Validate_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1678" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/validate</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1641916229005" s="false" lb="T9_Price_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/price</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641916229015" s="false" lb="T6_Get_SC_By_Id_after_price" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641916229023" s="false" lb="T10_Present_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1811" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="0" ts="1641916229035" s="false" lb="T11_Accept_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1809" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641916229042" s="false" lb="T16_Submit_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/submit</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="0" ts="1641916234057" s="false" lb="T20_Revise_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/revise</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1641916234076" s="false" lb="T12_Clone_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/clone</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="0" ts="1641916234088" s="false" lb="T15_Cancel_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1817" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641916234102" s="false" lb="T18_Delete_SC" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641916234106" s="false" lb="T13_Modify_SC_5Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641916234109" s="false" lb="T14_Modify_SC_10Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<sample t="5173" it="0" lt="127" ct="0" ts="1641916228932" s="false" lb="PLACE ORDER" rc="" rm="Number of samples in transaction : 16, number of failing samples : 16" tn="KPI_Existing_Customer 1-1" dt="" by="9742" sby="23445" ng="1" na="1"/>
+
+<httpSample t="856" it="0" lt="852" ct="655" ts="1641916245273" s="true" lb="Get CWToken" rc="200" rm="OK" tn="KPI_Existing_Customer 1-1" dt="text" by="1667" sby="223" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/avmSecurity/getToken</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="19" ct="0" ts="1641916246200" s="false" lb="T1_Create_SC_Customer_InstallBase" rc="500" rm="Internal Server Error" tn="KPI_Existing_Customer 1-1" dt="text" by="469" sby="2575" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641916246222" s="false" lb="T2_Add_Cart_Item_Optional_POs" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1867" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641916246236" s="false" lb="T3_Add_Cart_Item_Addon" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1864" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="0" ts="1641916246248" s="false" lb="T4_Get_SC_By_Id" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1641916246262" s="false" lb="T8_Validate_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1678" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/validate</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641916246271" s="false" lb="T9_Price_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/price</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1641916246279" s="false" lb="T6_Get_SC_By_Id_after_price" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641916246289" s="false" lb="T10_Present_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1811" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641916246297" s="false" lb="T11_Accept_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1809" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641916246305" s="false" lb="T16_Submit_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/submit</java.net.URL>
+</httpSample>
+<httpSample t="15" it="0" lt="15" ct="0" ts="1641916251318" s="false" lb="T20_Revise_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/revise</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="0" ts="1641916251336" s="false" lb="T12_Clone_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/clone</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641916251350" s="false" lb="T15_Cancel_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1817" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641916251363" s="false" lb="T18_Delete_SC" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641916251366" s="false" lb="T13_Modify_SC_5Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641916251368" s="false" lb="T14_Modify_SC_10Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<sample t="5170" it="0" lt="129" ct="0" ts="1641916246199" s="false" lb="PLACE ORDER" rc="" rm="Number of samples in transaction : 16, number of failing samples : 16" tn="KPI_Existing_Customer 1-1" dt="" by="9742" sby="23445" ng="1" na="1"/>
+
+<httpSample t="972" it="0" lt="964" ct="761" ts="1641916262148" s="true" lb="Get CWToken" rc="200" rm="OK" tn="KPI_Existing_Customer 1-1" dt="text" by="1667" sby="223" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/avmSecurity/getToken</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="22" ct="0" ts="1641916263229" s="false" lb="T1_Create_SC_Customer_InstallBase" rc="500" rm="Internal Server Error" tn="KPI_Existing_Customer 1-1" dt="text" by="469" sby="2575" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="0" ts="1641916263258" s="false" lb="T2_Add_Cart_Item_Optional_POs" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1867" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="16" it="0" lt="16" ct="0" ts="1641916263271" s="false" lb="T3_Add_Cart_Item_Addon" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1864" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="0" ts="1641916263288" s="false" lb="T4_Get_SC_By_Id" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="0" ts="1641916263301" s="false" lb="T8_Validate_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1678" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/validate</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641916263317" s="false" lb="T9_Price_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/price</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="0" ts="1641916263329" s="false" lb="T6_Get_SC_By_Id_after_price" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="0" ts="1641916263345" s="false" lb="T10_Present_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1811" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641916263357" s="false" lb="T11_Accept_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1809" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641916263371" s="false" lb="T16_Submit_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/submit</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="12" ct="0" ts="1641916268380" s="false" lb="T20_Revise_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/revise</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1641916268394" s="false" lb="T12_Clone_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/clone</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641916268405" s="false" lb="T15_Cancel_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1817" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641916268413" s="false" lb="T18_Delete_SC" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641916268417" s="false" lb="T13_Modify_SC_5Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641916268420" s="false" lb="T14_Modify_SC_10Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<sample t="5193" it="0" lt="154" ct="0" ts="1641916263229" s="false" lb="PLACE ORDER" rc="" rm="Number of samples in transaction : 16, number of failing samples : 16" tn="KPI_Existing_Customer 1-1" dt="" by="9742" sby="23445" ng="1" na="1"/>
+
+<httpSample t="927" it="0" lt="921" ct="721" ts="1641916278894" s="true" lb="Get CWToken" rc="200" rm="OK" tn="KPI_Existing_Customer 1-1" dt="text" by="1667" sby="223" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/avmSecurity/getToken</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" lt="20" ct="0" ts="1641916279885" s="false" lb="T1_Create_SC_Customer_InstallBase" rc="500" rm="Internal Server Error" tn="KPI_Existing_Customer 1-1" dt="text" by="469" sby="2575" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/</java.net.URL>
+</httpSample>
+<httpSample t="16" it="0" lt="16" ct="0" ts="1641916279909" s="false" lb="T2_Add_Cart_Item_Optional_POs" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1867" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1641916279929" s="false" lb="T3_Add_Cart_Item_Addon" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1864" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1641916279940" s="false" lb="T4_Get_SC_By_Id" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641916279949" s="false" lb="T8_Validate_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1678" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/validate</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="6" ct="0" ts="1641916279957" s="false" lb="T9_Price_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/price</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641916279965" s="false" lb="T6_Get_SC_By_Id_after_price" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1661" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1641916279974" s="false" lb="T10_Present_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1811" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641916279983" s="false" lb="T11_Accept_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1809" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1641916279991" s="false" lb="T16_Submit_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/submit</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="0" ts="1641916285008" s="false" lb="T20_Revise_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1676" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/revise</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641916285023" s="false" lb="T12_Clone_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1675" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/clone</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1641916285035" s="false" lb="T15_Cancel_SC" rc="404" rm="Not Found" tn="KPI_Existing_Customer 1-1" dt="text" by="480" sby="1817" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/NOT_FOUND/setState</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641916285047" s="false" lb="T18_Delete_SC" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${delete_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641916285054" s="false" lb="T13_Modify_SC_5Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1641916285056" s="false" lb="T14_Modify_SC_10Char" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 94: https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}" tn="KPI_Existing_Customer 1-1" dt="text" by="1171" sby="0" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/${modify_scId}</java.net.URL>
+</httpSample>
+<sample t="5173" it="0" lt="127" ct="0" ts="1641916279884" s="false" lb="PLACE ORDER" rc="" rm="Number of samples in transaction : 16, number of failing samples : 16" tn="KPI_Existing_Customer 1-1" dt="" by="9742" sby="23445" ng="1" na="1"/>
+
+</testResults>
