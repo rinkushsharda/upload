@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="924" it="0" lt="0" ct="0" ts="1641964810896" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="788" it="0" lt="782" ct="584" ts="1641964812229" s="true" lb="Get CWToken" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="1667" sby="223" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/avmSecurity/getToken</java.net.URL>
+</httpSample>
+<httpSample t="78" it="0" lt="78" ct="0" ts="1641964813197" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="252" it="0" lt="244" ct="0" ts="1641964813724" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000021-26510958</java.net.URL>
+</httpSample>
+<httpSample t="64" it="0" lt="60" ct="0" ts="1641964814112" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000021-26510958/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="11" it="0" lt="0" ct="0" ts="1641964818135" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="235" sby="0" ng="1" na="1"/>
+<httpSample t="262" it="0" lt="262" ct="0" ts="1641964818302" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000021-26510958/attachFile</java.net.URL>
+</httpSample>
+<sample t="18" it="0" lt="0" ct="0" ts="1641964818698" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="205" it="0" lt="205" ct="44" ts="1641964818864" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="159" it="0" lt="155" ct="0" ts="1641964819211" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000050-59542889</java.net.URL>
+</httpSample>
+<httpSample t="65" it="0" lt="63" ct="0" ts="1641964819508" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000050-59542889/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="2" it="0" lt="0" ct="0" ts="1641964821836" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="305" sby="0" ng="1" na="1"/>
+<httpSample t="43" it="0" lt="43" ct="0" ts="1641964821960" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000050-59542889/attachFile</java.net.URL>
+</httpSample>
+<sample t="18" it="0" lt="0" ct="0" ts="1641964822140" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="76" it="0" lt="76" ct="42" ts="1641964822308" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="154" it="0" lt="152" ct="0" ts="1641964822526" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000079-42130935</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="0" ts="1641964822904" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000079-42130935/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="3" it="0" lt="0" ct="0" ts="1641964825158" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="375" sby="0" ng="1" na="1"/>
+<httpSample t="44" it="0" lt="44" ct="0" ts="1641964825281" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000079-42130935/attachFile</java.net.URL>
+</httpSample>
+<sample t="19" it="0" lt="0" ct="0" ts="1641964825486" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="116" it="0" lt="116" ct="29" ts="1641964825641" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="92" it="0" lt="91" ct="0" ts="1641964825894" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000108-75589687</java.net.URL>
+</httpSample>
+<httpSample t="55" it="0" lt="53" ct="0" ts="1641964826112" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000108-75589687/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="6" it="0" lt="0" ct="0" ts="1641964828295" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="445" sby="0" ng="1" na="1"/>
+<httpSample t="38" it="0" lt="38" ct="0" ts="1641964828416" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000108-75589687/attachFile</java.net.URL>
+</httpSample>
+<sample t="18" it="0" lt="0" ct="0" ts="1641964828588" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="66" it="0" lt="66" ct="26" ts="1641964828740" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="137" it="0" lt="136" ct="0" ts="1641964828944" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000137-95332728</java.net.URL>
+</httpSample>
+<httpSample t="33" it="0" lt="32" ct="0" ts="1641964829206" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000137-95332728/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="3" it="0" lt="0" ct="0" ts="1641964831312" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="515" sby="0" ng="1" na="1"/>
+<httpSample t="36" it="0" lt="36" ct="0" ts="1641964831437" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000137-95332728/attachFile</java.net.URL>
+</httpSample>
+<sample t="22" it="0" lt="0" ct="0" ts="1641964831605" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="59" it="0" lt="59" ct="24" ts="1641964831745" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="62" it="0" lt="61" ct="0" ts="1641964831923" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000166-58514482</java.net.URL>
+</httpSample>
+<httpSample t="28" it="0" lt="27" ct="0" ts="1641964832120" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000166-58514482/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="5" it="0" lt="0" ct="0" ts="1641964834267" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="585" sby="0" ng="1" na="1"/>
+<httpSample t="36" it="0" lt="36" ct="0" ts="1641964834456" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000166-58514482/attachFile</java.net.URL>
+</httpSample>
+<sample t="32" it="0" lt="0" ct="0" ts="1641964834632" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="58" it="0" lt="58" ct="25" ts="1641964834780" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="115" it="0" lt="113" ct="0" ts="1641964834961" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000195-70617077</java.net.URL>
+</httpSample>
+<httpSample t="27" it="0" lt="26" ct="0" ts="1641964835213" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000195-70617077/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="3" it="0" lt="0" ct="0" ts="1641964837376" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="655" sby="0" ng="1" na="1"/>
+<httpSample t="35" it="0" lt="35" ct="0" ts="1641964837496" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000195-70617077/attachFile</java.net.URL>
+</httpSample>
+<sample t="16" it="0" lt="0" ct="0" ts="1641964837664" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="62" it="0" lt="62" ct="26" ts="1641964837803" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="87" it="0" lt="86" ct="0" ts="1641964838004" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000224-72009448</java.net.URL>
+</httpSample>
+<httpSample t="45" it="0" lt="44" ct="0" ts="1641964838220" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000224-72009448/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="3" it="0" lt="0" ct="0" ts="1641964840404" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="725" sby="0" ng="1" na="1"/>
+<httpSample t="33" it="0" lt="33" ct="0" ts="1641964840566" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000224-72009448/attachFile</java.net.URL>
+</httpSample>
+<sample t="18" it="0" lt="0" ct="0" ts="1641964840716" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="65" it="0" lt="65" ct="22" ts="1641964840861" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="87" it="0" lt="86" ct="0" ts="1641964841091" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000253-86464545</java.net.URL>
+</httpSample>
+<httpSample t="25" it="0" lt="24" ct="0" ts="1641964841305" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000253-86464545/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="3" it="0" lt="0" ct="0" ts="1641964843450" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="795" sby="0" ng="1" na="1"/>
+<httpSample t="33" it="0" lt="33" ct="0" ts="1641964843568" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000253-86464545/attachFile</java.net.URL>
+</httpSample>
+<sample t="18" it="0" lt="0" ct="0" ts="1641964843734" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="66" it="0" lt="66" ct="29" ts="1641964843870" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="91" it="0" lt="89" ct="0" ts="1641964844067" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000282-47919215</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="24" ct="0" ts="1641964844286" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000282-47919215/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="3" it="0" lt="0" ct="0" ts="1641964846624" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="865" sby="0" ng="1" na="1"/>
+<httpSample t="35" it="0" lt="35" ct="0" ts="1641964846748" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000282-47919215/attachFile</java.net.URL>
+</httpSample>
+<sample t="17" it="0" lt="0" ct="0" ts="1641964846920" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="62" it="0" lt="61" ct="28" ts="1641964847061" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="110" it="0" lt="108" ct="0" ts="1641964847249" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000311-95396968</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="0" ts="1641964847518" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000311-95396968/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="2" it="0" lt="0" ct="0" ts="1641964849697" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="935" sby="0" ng="1" na="1"/>
+<httpSample t="32" it="0" lt="32" ct="0" ts="1641964849817" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000311-95396968/attachFile</java.net.URL>
+</httpSample>
+<sample t="15" it="0" lt="0" ct="0" ts="1641964849979" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="60" it="0" lt="60" ct="24" ts="1641964850184" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="55" it="0" lt="54" ct="0" ts="1641964850402" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000340-14033153</java.net.URL>
+</httpSample>
+<httpSample t="30" it="0" lt="30" ct="0" ts="1641964850629" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000340-14033153/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="3" it="0" lt="0" ct="0" ts="1641964852913" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="1005" sby="0" ng="1" na="1"/>
+<httpSample t="33" it="0" lt="33" ct="0" ts="1641964853039" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000340-14033153/attachFile</java.net.URL>
+</httpSample>
+<sample t="19" it="0" lt="0" ct="0" ts="1641964853204" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="40" it="0" lt="40" ct="16" ts="1641964853342" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="120" it="0" lt="118" ct="0" ts="1641964853540" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000369-19920344</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="22" ct="0" ts="1641964853800" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000369-19920344/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="3" it="0" lt="0" ct="0" ts="1641964856087" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="1075" sby="0" ng="1" na="1"/>
+<httpSample t="32" it="0" lt="31" ct="0" ts="1641964856208" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000369-19920344/attachFile</java.net.URL>
+</httpSample>
+<sample t="18" it="0" lt="0" ct="0" ts="1641964856368" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="54" it="0" lt="54" ct="17" ts="1641964856506" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="89" it="0" lt="88" ct="0" ts="1641964856688" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000398-37079080</java.net.URL>
+</httpSample>
+<httpSample t="21" it="0" lt="20" ct="0" ts="1641964856902" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000398-37079080/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="3" it="0" lt="0" ct="0" ts="1641964859112" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="1145" sby="0" ng="1" na="1"/>
+<httpSample t="31" it="0" lt="31" ct="0" ts="1641964859241" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000398-37079080/attachFile</java.net.URL>
+</httpSample>
+<sample t="18" it="0" lt="0" ct="0" ts="1641964859420" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="41" it="0" lt="41" ct="17" ts="1641964859566" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="63" it="0" lt="62" ct="0" ts="1641964859739" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000427-29508350</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" lt="26" ct="0" ts="1641964859932" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000427-29508350/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="3" it="0" lt="0" ct="0" ts="1641964862149" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="1215" sby="0" ng="1" na="1"/>
+<httpSample t="31" it="0" lt="31" ct="0" ts="1641964862272" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000427-29508350/attachFile</java.net.URL>
+</httpSample>
+<sample t="16" it="0" lt="0" ct="0" ts="1641964862435" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="48" it="0" lt="47" ct="15" ts="1641964862564" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="51" it="0" lt="50" ct="0" ts="1641964862748" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000456-47943085</java.net.URL>
+</httpSample>
+<httpSample t="21" it="0" lt="20" ct="0" ts="1641964862928" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000456-47943085/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="5" it="0" lt="0" ct="0" ts="1641964865309" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="1285" sby="0" ng="1" na="1"/>
+<httpSample t="33" it="0" lt="33" ct="0" ts="1641964865465" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000456-47943085/attachFile</java.net.URL>
+</httpSample>
+<sample t="18" it="0" lt="0" ct="0" ts="1641964865631" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="46" it="0" lt="46" ct="13" ts="1641964865770" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="48" it="0" lt="47" ct="0" ts="1641964865946" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000485-19263533</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="31" ct="0" ts="1641964866131" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000485-19263533/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="3" it="0" lt="0" ct="0" ts="1641964868355" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="1355" sby="0" ng="1" na="1"/>
+<httpSample t="34" it="0" lt="33" ct="0" ts="1641964868508" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000485-19263533/attachFile</java.net.URL>
+</httpSample>
+<sample t="14" it="0" lt="0" ct="0" ts="1641964868669" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="65" it="0" lt="64" ct="17" ts="1641964868808" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="49" it="0" lt="48" ct="0" ts="1641964869004" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000514-41887177</java.net.URL>
+</httpSample>
+<httpSample t="21" it="0" lt="21" ct="0" ts="1641964869195" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000514-41887177/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="4" it="0" lt="0" ct="0" ts="1641964871411" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="1425" sby="0" ng="1" na="1"/>
+<httpSample t="34" it="0" lt="34" ct="0" ts="1641964871546" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000514-41887177/attachFile</java.net.URL>
+</httpSample>
+<sample t="23" it="0" lt="0" ct="0" ts="1641964871700" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="40" it="0" lt="40" ct="16" ts="1641964871838" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="68" it="0" lt="67" ct="0" ts="1641964872006" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000543-79119916</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="22" ct="0" ts="1641964872205" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000543-79119916/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="4" it="0" lt="0" ct="0" ts="1641964874427" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="1495" sby="0" ng="1" na="1"/>
+<httpSample t="30" it="0" lt="30" ct="0" ts="1641964874547" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000543-79119916/attachFile</java.net.URL>
+</httpSample>
+<sample t="15" it="0" lt="0" ct="0" ts="1641964874711" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="49" it="0" lt="49" ct="25" ts="1641964874858" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="47" it="0" lt="46" ct="0" ts="1641964875035" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000572-17211359</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" lt="19" ct="0" ts="1641964875213" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000572-17211359/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="2" it="0" lt="0" ct="0" ts="1641964877562" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="1565" sby="0" ng="1" na="1"/>
+<httpSample t="29" it="0" lt="29" ct="0" ts="1641964877711" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000572-17211359/attachFile</java.net.URL>
+</httpSample>
+<sample t="14" it="0" lt="0" ct="0" ts="1641964877871" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="49" it="0" lt="49" ct="18" ts="1641964878064" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="46" it="0" lt="46" ct="0" ts="1641964878270" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000601-13797959</java.net.URL>
+</httpSample>
+<httpSample t="21" it="0" lt="20" ct="0" ts="1641964878431" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000601-13797959/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="2" it="0" lt="0" ct="0" ts="1641964880669" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="1635" sby="0" ng="1" na="1"/>
+<httpSample t="30" it="0" lt="30" ct="0" ts="1641964880791" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000601-13797959/attachFile</java.net.URL>
+</httpSample>
+<sample t="14" it="0" lt="0" ct="0" ts="1641964880955" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="40" it="0" lt="40" ct="15" ts="1641964881097" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="46" it="0" lt="44" ct="0" ts="1641964881269" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000630-18670054</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="22" ct="0" ts="1641964881443" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000630-18670054/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="4" it="0" lt="0" ct="0" ts="1641964883702" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="1705" sby="0" ng="1" na="1"/>
+<httpSample t="35" it="0" lt="35" ct="0" ts="1641964883856" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000630-18670054/attachFile</java.net.URL>
+</httpSample>
+<sample t="26" it="0" lt="0" ct="0" ts="1641964884117" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="45" it="0" lt="45" ct="13" ts="1641964884264" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="44" it="0" lt="43" ct="0" ts="1641964884442" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000659-59690218</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" lt="19" ct="0" ts="1641964884618" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000659-59690218/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="2" it="0" lt="0" ct="0" ts="1641964886972" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="1775" sby="0" ng="1" na="1"/>
+<httpSample t="36" it="0" lt="36" ct="0" ts="1641964887086" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000659-59690218/attachFile</java.net.URL>
+</httpSample>
+<sample t="15" it="0" lt="0" ct="0" ts="1641964887250" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="40" it="0" lt="40" ct="16" ts="1641964887401" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="43" it="0" lt="42" ct="0" ts="1641964887572" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000688-42389737</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="19" ct="0" ts="1641964887808" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000688-42389737/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="2" it="0" lt="0" ct="0" ts="1641964890245" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="1845" sby="0" ng="1" na="1"/>
+<httpSample t="31" it="0" lt="31" ct="0" ts="1641964890369" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000688-42389737/attachFile</java.net.URL>
+</httpSample>
+<sample t="14" it="0" lt="0" ct="0" ts="1641964890532" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="36" it="0" lt="36" ct="13" ts="1641964890670" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="44" it="0" lt="43" ct="0" ts="1641964890840" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000717-63454880</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" lt="20" ct="0" ts="1641964891013" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000717-63454880/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="2" it="0" lt="0" ct="0" ts="1641964893277" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="1915" sby="0" ng="1" na="1"/>
+<httpSample t="31" it="0" lt="31" ct="0" ts="1641964893390" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000717-63454880/attachFile</java.net.URL>
+</httpSample>
+<sample t="14" it="0" lt="0" ct="0" ts="1641964893564" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="50" it="0" lt="50" ct="18" ts="1641964893702" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="52" it="0" lt="51" ct="0" ts="1641964893889" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000746-62113768</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="18" ct="0" ts="1641964894067" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000746-62113768/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="4" it="0" lt="0" ct="0" ts="1641964896518" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="1985" sby="0" ng="1" na="1"/>
+<httpSample t="30" it="0" lt="30" ct="0" ts="1641964896665" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000746-62113768/attachFile</java.net.URL>
+</httpSample>
+<sample t="16" it="0" lt="0" ct="0" ts="1641964896827" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="44" it="0" lt="44" ct="14" ts="1641964896961" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="44" it="0" lt="43" ct="0" ts="1641964897140" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000775-85312066</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="19" ct="0" ts="1641964897314" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000775-85312066/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="3" it="0" lt="0" ct="0" ts="1641964899627" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="2055" sby="0" ng="1" na="1"/>
+<httpSample t="30" it="0" lt="30" ct="0" ts="1641964899757" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000775-85312066/attachFile</java.net.URL>
+</httpSample>
+<sample t="15" it="0" lt="0" ct="0" ts="1641964899919" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="41" it="0" lt="41" ct="18" ts="1641964900049" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="50" it="0" lt="50" ct="0" ts="1641964900221" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000804-91934479</java.net.URL>
+</httpSample>
+<httpSample t="28" it="0" lt="28" ct="0" ts="1641964900434" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000804-91934479/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="2" it="0" lt="0" ct="0" ts="1641964902793" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="2125" sby="0" ng="1" na="1"/>
+<httpSample t="29" it="0" lt="29" ct="0" ts="1641964902905" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000804-91934479/attachFile</java.net.URL>
+</httpSample>
+<sample t="13" it="0" lt="0" ct="0" ts="1641964903065" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="42" it="0" lt="42" ct="19" ts="1641964903203" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="41" it="0" lt="40" ct="0" ts="1641964903373" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000833-63312685</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="18" ct="0" ts="1641964903544" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000833-63312685/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="5" it="0" lt="0" ct="0" ts="1641964905834" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="2195" sby="0" ng="1" na="1"/>
+<httpSample t="30" it="0" lt="30" ct="0" ts="1641964905963" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000833-63312685/attachFile</java.net.URL>
+</httpSample>
+<sample t="14" it="0" lt="0" ct="0" ts="1641964906125" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="60" it="0" lt="60" ct="28" ts="1641964906267" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="40" it="0" lt="40" ct="0" ts="1641964906536" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000862-25236531</java.net.URL>
+</httpSample>
+<httpSample t="18" it="0" lt="18" ct="0" ts="1641964906732" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000862-25236531/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="3" it="0" lt="0" ct="0" ts="1641964909067" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="2265" sby="0" ng="1" na="1"/>
+<httpSample t="28" it="0" lt="28" ct="0" ts="1641964909191" s="false" lb="Attach_File" rc="500" rm="Internal Server Error" tn="Quantity_Based_SC 1-1" dt="text" by="674" sby="1792" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000862-25236531/attachFile</java.net.URL>
+</httpSample>
+<sample t="24" it="0" lt="0" ct="0" ts="1641964909362" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="45" it="0" lt="45" ct="14" ts="1641964909516" s="true" lb="Create_empty_SC" rc="201" rm="Created" tn="Quantity_Based_SC 1-1" dt="text" by="1341" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<httpSample t="50" it="0" lt="49" ct="0" ts="1641964909690" s="true" lb="Add_PO_to_cart_BPO" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="10920" sby="2009" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000891-11264642</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="18" ct="0" ts="1641964909867" s="true" lb="Download_Template" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="8686" sby="1766" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10000891-11264642/downloadTemplate</java.net.URL>
+</httpSample>
+<sample t="3" it="0" lt="0" ct="0" ts="1641964912182" s="true" lb="Update Excel" rc="0" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="2335" sby="0" ng="1" na="1"/>
+
+</testResults>
