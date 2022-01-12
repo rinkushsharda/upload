@@ -119,24 +119,24 @@
           </elementProp>
           <elementProp name="PO1CHARA" elementType="Argument">
             <stringProp name="Argument.name">PO1CHARA</stringProp>
-            <stringProp name="Argument.value">${__P(po1chara, )}</stringProp>
+            <stringProp name="Argument.value">${__P(po1chara,  )}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
             <stringProp name="Argument.desc">PO_MVP_PRE_MSISDN_STD</stringProp>
           </elementProp>
           <elementProp name="PO3CHARA" elementType="Argument">
             <stringProp name="Argument.name">PO3CHARA</stringProp>
-            <stringProp name="Argument.value">${__P(po3chara,PO_OPT_DATA_5G_ACCESS_TC01_3Char)}</stringProp>
+            <stringProp name="Argument.value">${__P(po3chara,)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="PO5CHARA" elementType="Argument">
             <stringProp name="Argument.name">PO5CHARA</stringProp>
-            <stringProp name="Argument.value">${__P(po5chara,  )}</stringProp>
+            <stringProp name="Argument.value">${__P(po5chara, )}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
             <stringProp name="Argument.desc">PO_MVP_PRE_SIM_CARD</stringProp>
           </elementProp>
           <elementProp name="BPO" elementType="Argument">
             <stringProp name="Argument.name">BPO</stringProp>
-            <stringProp name="Argument.value">${__P(bpo,)}</stringProp>
+            <stringProp name="Argument.value">${__P(bpo,BPO_4Cart_1Char_KPI)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
             <stringProp name="Argument.desc">BPO_MVP_PRE_AC_STD_10</stringProp>
           </elementProp>
@@ -158,7 +158,7 @@
           </elementProp>
           <elementProp name="port" elementType="Argument">
             <stringProp name="Argument.name">port</stringProp>
-            <stringProp name="Argument.value">${__P(port,443)}</stringProp>
+            <stringProp name="Argument.value">${__P(port,30000)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="minio_url" elementType="Argument">
@@ -301,24 +301,24 @@
       </ResultCollector>
       <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Quantity_Based_SC" enabled="true">
-        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <stringProp name="ThreadGroup.on_sample_error">startnextloop</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">1</stringProp>
+          <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">10</stringProp>
-        <boolProp name="ThreadGroup.scheduler">false</boolProp>
-        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.num_threads">100</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">200</stringProp>
+        <boolProp name="ThreadGroup.scheduler">true</boolProp>
+        <stringProp name="ThreadGroup.duration">1800</stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
-        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
       </ThreadGroup>
       <hashTree>
         <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="JSR223 Sampler" enabled="true">
           <stringProp name="scriptLanguage">groovy</stringProp>
           <stringProp name="parameters"></stringProp>
           <stringProp name="filename"></stringProp>
-          <stringProp name="cacheKey">true</stringProp>
+          <stringProp name="cacheKey">false</stringProp>
           <stringProp name="script">vars.put(&quot;customerId&quot;,&quot;${__UUID()}&quot;.replace(&quot;-&quot;,&quot;&quot;));
 vars.put(&quot;uploadid&quot;,&quot;${__UUID()}&quot;.replace(&quot;-&quot;,&quot;&quot;));
 
@@ -459,7 +459,7 @@ else
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
     &quot;requestedCompletionDate&quot;: &quot;2021-12-31T11:37:18.318Z&quot;,&#xd;
-    &quot;owner&quot;: &quot;3d343870-fd8d-11ea-9d95-b55ab12ee410&quot;,&#xd;
+    &quot;owner&quot;: &quot;${customerId}&quot;,&#xd;
     &quot;relatedParty&quot;: [&#xd;
         {&#xd;
             &quot;role&quot;: &quot;customer&quot;,&#xd;
@@ -532,6 +532,10 @@ else
             <stringProp name="JSONPostProcessor.jsonPathExprs">$.id</stringProp>
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
           </JSONPostProcessor>
+          <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="false">
+            <stringProp name="ConstantTimer.delay">4000</stringProp>
+          </ConstantTimer>
           <hashTree/>
         </hashTree>
         <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If PO1CHARA" enabled="true">
@@ -842,7 +846,7 @@ else
               </collectionProp>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${cpq_server}</stringProp>
-            <stringProp name="HTTPSampler.port">${cpq_port}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol">${cpq_protocol}</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
             <stringProp name="HTTPSampler.path">cpq/shoppingCart/v1/shoppingCart/${scId}</stringProp>
@@ -901,7 +905,7 @@ else
             </JSONPostProcessor>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Add_ext_related_data" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Add_ext_related_data" enabled="false">
             <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
               <collectionProp name="Arguments.arguments">
@@ -1910,7 +1914,7 @@ def update_excel_file(int quantity, WritableSheet aCopySheet, int no_of_chara)
           <stringProp name="filename"></stringProp>
           <stringProp name="parameters"></stringProp>
           <boolProp name="resetInterpreter">false</boolProp>
-          <stringProp name="script">Process p = Runtime.getRuntime().exec(&quot;kubectl cp /opt/erinksh/apache-jmeter-5.4.1/bin/${scId}.xls eric-data-object-storage-mn-mgt-56b488846b-mv72q:/tmp/ -n edbtest &quot;);
+          <stringProp name="script">Process p = Runtime.getRuntime().exec(&quot;kubectl cp /opt/erinksh/apache-jmeter-5.4.1/bin/${scId}.xls eric-data-object-storage-mn-mgt-56b488846b-bc65s:/tmp/ -n edbtest &quot;);
 p.waitFor();
 
 log.info(&quot;Copy complete.&quot;);
@@ -1931,7 +1935,7 @@ log.info(&quot;Output: &quot; + logCommandOutput.toString());</stringProp>
           <stringProp name="filename"></stringProp>
           <stringProp name="parameters"></stringProp>
           <boolProp name="resetInterpreter">false</boolProp>
-          <stringProp name="script">Process p = Runtime.getRuntime().exec(&quot;kubectl exec -it eric-data-object-storage-mn-mgt-56b488846b-mv72q -n edbtest -- eosc push server eric-data-object-storage-mn user TESTPKEY passwd TESTPKEY local /tmp/${scId}.xls remote quantity-personalization-file&quot;);
+          <stringProp name="script">Process p = Runtime.getRuntime().exec(&quot;kubectl exec -it eric-data-object-storage-mn-mgt-56b488846b-bc65s -n edbtest -- eosc push server eric-data-object-storage-mn user TESTPKEY passwd TESTPKEY local /tmp/${scId}.xls remote quantity-personalization-file&quot;);
 p.waitFor();
 
 log.info(&quot;Execution complete.&quot;);
@@ -2013,8 +2017,8 @@ log.info(&quot;Output: &quot; + logCommandOutput.toString());</stringProp>
             </collectionProp>
           </HeaderManager>
           <hashTree/>
-          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">5000</stringProp>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="false">
+            <stringProp name="ConstantTimer.delay">1000</stringProp>
           </ConstantTimer>
           <hashTree/>
         </hashTree>
@@ -2085,7 +2089,7 @@ log.info(&quot;Output: &quot; + logCommandOutput.toString());</stringProp>
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Validate_SC" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Validate_SC" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -2365,30 +2369,59 @@ log.info(&quot;Output: &quot; + logCommandOutput.toString());</stringProp>
             <stringProp name="JSONPostProcessor.defaultValues">NOT_FOUND</stringProp>
           </JSONPostProcessor>
           <hashTree/>
+          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <boolProp name="resetInterpreter">false</boolProp>
+            <stringProp name="script">
+
+ // pass true if want to append to existing file  
+ // if want to overwrite, then don&apos;t pass the second argument
+ FileWriter fstream = new FileWriter(&quot;/opt/erinksh/result/orderIds&quot;, true);
+ BufferedWriter out = new BufferedWriter(fstream);
+ out.write(&quot;${orderId}&quot;);
+ out.write(System.getProperty(&quot;line.separator&quot;));
+ out.close();
+ fstream.close();</stringProp>
+          </BeanShellPostProcessor>
+          <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="extractOrderID" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">orderID</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.orderId</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">orderId</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.orderId</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+            <stringProp name="JSONPostProcessor.defaultValues">NOT_FOUND</stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
         </hashTree>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Non-Quantity_Based_SC" enabled="false">
-        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <stringProp name="ThreadGroup.on_sample_error">startnextloop</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">1</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">10</stringProp>
-        <boolProp name="ThreadGroup.scheduler">false</boolProp>
-        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.ramp_time">200</stringProp>
+        <boolProp name="ThreadGroup.scheduler">true</boolProp>
+        <stringProp name="ThreadGroup.duration">1800</stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
-        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
       </ThreadGroup>
       <hashTree>
         <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="JSR223 Sampler" enabled="true">
           <stringProp name="scriptLanguage">groovy</stringProp>
           <stringProp name="parameters"></stringProp>
           <stringProp name="filename"></stringProp>
-          <stringProp name="cacheKey">true</stringProp>
+          <stringProp name="cacheKey">false</stringProp>
           <stringProp name="script">vars.put(&quot;customerId&quot;,&quot;${__UUID()}&quot;.replace(&quot;-&quot;,&quot;&quot;));
 vars.put(&quot;uploadid&quot;,&quot;${__UUID()}&quot;.replace(&quot;-&quot;,&quot;&quot;));
-
+vars.put(&quot;Counter&quot;, &apos;1&apos;);
 vars.put(&quot;orderId&quot;,&quot;${__UUID()}&quot;.replace(&quot;-&quot;,&quot;&quot;));
 vars.put(&quot;placeref&quot;,&quot;${__UUID()}&quot;.replace(&quot;-&quot;,&quot;&quot;));
 </stringProp>
@@ -2525,17 +2558,59 @@ else
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-    &quot;requestedCompletionDate&quot;: &quot;2021-12-31T11:37:18.318Z&quot;,&#xd;
-    &quot;owner&quot;: &quot;3d343870-fd8d-11ea-9d95-b55ab12ee410&quot;,&#xd;
+    &quot;owner&quot;: &quot;${customerId}&quot;,&#xd;
     &quot;relatedParty&quot;: [&#xd;
         {&#xd;
             &quot;role&quot;: &quot;customer&quot;,&#xd;
             &quot;id&quot;: &quot;${customerId}&quot;&#xd;
         }&#xd;
     ],&#xd;
+    &quot;relatedPlace&quot;: [&#xd;
+        {&#xd;
+            &quot;role&quot;: &quot;serviceLocation&quot;,&#xd;
+            &quot;id&quot;: &quot;4698121&quot;&#xd;
+        }&#xd;
+    ],&#xd;
+    &quot;description&quot;: &quot;Moe&apos;s shopping cart&quot;,&#xd;
+    &quot;requestedCompletionDate&quot;:&quot;2029-11-30T01:02:34.504Z&quot;,&#xd;
+    &quot;contextCharacteristic&quot;: [&#xd;
+        {&#xd;
+            &quot;value&quot;: &quot;SMB&quot;,&#xd;
+            &quot;name&quot;: &quot;customersubtype&quot;&#xd;
+        },&#xd;
+        {&#xd;
+            &quot;value&quot;: &quot;5&quot;,&#xd;
+            &quot;name&quot;: &quot;revenuerange&quot;&#xd;
+        },&#xd;
+        {&#xd;
+            &quot;value&quot;: &quot;ON&quot;,&#xd;
+            &quot;name&quot;: &quot;statecode&quot;&#xd;
+        },&#xd;
+        {&#xd;
+            &quot;name&quot;: &quot;saleschannel&quot;,&#xd;
+            &quot;value&quot;: &quot;CSR&quot;&#xd;
+        }&#xd;
+    ],&#xd;
     &quot;contextSpecification&quot;: {&#xd;
         &quot;id&quot;: &quot;resiCatalogContext&quot;&#xd;
-    }&#xd;
+    },&#xd;
+    &quot;attrs&quot;: [&#xd;
+        {&#xd;
+            &quot;name&quot;: &quot;mainContact&quot;,&#xd;
+            &quot;value&quot;: &quot;4831804&quot;&#xd;
+        },&#xd;
+        {&#xd;
+            &quot;name&quot;: &quot;serviceLocation&quot;,&#xd;
+            &quot;value&quot;: &quot;4698121&quot;&#xd;
+        }&#xd;
+    ],&#xd;
+    &quot;note&quot;: [&#xd;
+        {&#xd;
+            &quot;id&quot;: 25,&#xd;
+            &quot;author&quot;: &quot;Moe&quot;,&#xd;
+            &quot;text&quot;: &quot;this is a new shopping cart&quot;&#xd;
+        }&#xd;
+    ]&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -2600,9 +2675,13 @@ else
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
           </JSONPostProcessor>
           <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="false">
+            <stringProp name="ConstantTimer.delay">20000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
         </hashTree>
         <WhileController guiclass="WhileControllerGui" testclass="WhileController" testname="Patch PO - While quanity" enabled="true">
-          <stringProp name="WhileController.condition">${__javaScript((${Counter} &lt; 75),)}</stringProp>
+          <stringProp name="WhileController.condition">${__javaScript((${Counter} &lt;= 1),)}</stringProp>
         </WhileController>
         <hashTree>
           <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Counter" enabled="true">
@@ -2612,10 +2691,11 @@ else
             <stringProp name="CounterConfig.name">Counter</stringProp>
             <stringProp name="CounterConfig.format"></stringProp>
             <boolProp name="CounterConfig.per_user">true</boolProp>
+            <boolProp name="CounterConfig.reset_on_tg_iteration">true</boolProp>
           </CounterConfig>
           <hashTree/>
           <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If PO1CHARA" enabled="true">
-            <stringProp name="IfController.condition">${__groovy(vars.get(&apos;PO1CHARA&apos;).length() &gt; 1 )}</stringProp>
+            <stringProp name="IfController.condition">${__groovy(vars.get(&apos;PO1CHARA&apos;).length() &gt; 11 )}</stringProp>
             <boolProp name="IfController.evaluateAll">false</boolProp>
             <boolProp name="IfController.useExpression">true</boolProp>
           </IfController>
@@ -2799,7 +2879,7 @@ else
             </hashTree>
           </hashTree>
           <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If PO5CHARA" enabled="true">
-            <stringProp name="IfController.condition">${__groovy(vars.get(&apos;PO5CHARA&apos;).length() &gt; 0)}</stringProp>
+            <stringProp name="IfController.condition">${__groovy(vars.get(&apos;PO5CHARA&apos;).length() &gt; 1)}</stringProp>
             <boolProp name="IfController.evaluateAll">false</boolProp>
             <boolProp name="IfController.useExpression">true</boolProp>
           </IfController>
@@ -2888,20 +2968,19 @@ else
               <hashTree/>
             </hashTree>
           </hashTree>
-        </hashTree>
-        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If BPO" enabled="true">
-          <stringProp name="IfController.condition">${__groovy(vars.get(&apos;BPO&apos;).length() &gt; 0)}</stringProp>
-          <boolProp name="IfController.evaluateAll">false</boolProp>
-          <boolProp name="IfController.useExpression">true</boolProp>
-        </IfController>
-        <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Add_PO_to_cart_BPO" enabled="true">
-            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-              <collectionProp name="Arguments.arguments">
-                <elementProp name="" elementType="HTTPArgument">
-                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">[&#xd;
+          <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If BPO" enabled="true">
+            <stringProp name="IfController.condition">${__groovy(vars.get(&apos;BPO&apos;).length() &gt; 1)}</stringProp>
+            <boolProp name="IfController.evaluateAll">false</boolProp>
+            <boolProp name="IfController.useExpression">true</boolProp>
+          </IfController>
+          <hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Add_PO_to_cart_BPO -${Counter}" enabled="true">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">[&#xd;
     {&#xd;
         &quot;op&quot;: &quot;add&quot;,&#xd;
         &quot;path&quot;: &quot;/cartItem/-&quot;,&#xd;
@@ -2916,77 +2995,77 @@ else
         }&#xd;
     }&#xd;
 ]</stringProp>
-                  <stringProp name="Argument.metadata">=</stringProp>
-                </elementProp>
-              </collectionProp>
-            </elementProp>
-            <stringProp name="HTTPSampler.domain">${cpq_server}</stringProp>
-            <stringProp name="HTTPSampler.port">${cpq_port}</stringProp>
-            <stringProp name="HTTPSampler.protocol">${cpq_protocol}</stringProp>
-            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">cpq/shoppingCart/v1/shoppingCart/${scId}</stringProp>
-            <stringProp name="HTTPSampler.method">PATCH</stringProp>
-            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-            <stringProp name="HTTPSampler.response_timeout">100000</stringProp>
-          </HTTPSamplerProxy>
-          <hashTree>
-            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
-              <collectionProp name="HeaderManager.headers">
-                <elementProp name="" elementType="Header">
-                  <stringProp name="Header.name">Authorization</stringProp>
-                  <stringProp name="Header.value">Bearer ${cwtoken}</stringProp>
-                </elementProp>
-                <elementProp name="" elementType="Header">
-                  <stringProp name="Header.name">Content-Type</stringProp>
-                  <stringProp name="Header.value">application/json-patch+json</stringProp>
-                </elementProp>
-                <elementProp name="" elementType="Header">
-                  <stringProp name="Header.name">Accept</stringProp>
-                  <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
-                </elementProp>
-                <elementProp name="" elementType="Header">
-                  <stringProp name="Header.name">Accept-Language</stringProp>
-                  <stringProp name="Header.value">en-US,en;q=0.9</stringProp>
-                </elementProp>
-                <elementProp name="" elementType="Header">
-                  <stringProp name="Header.name">Accept-Encoding</stringProp>
-                  <stringProp name="Header.value">gzip, deflate</stringProp>
-                </elementProp>
-                <elementProp name="" elementType="Header">
-                  <stringProp name="Header.name">Proxy-Connection</stringProp>
-                  <stringProp name="Header.value">keep-alive</stringProp>
-                </elementProp>
-                <elementProp name="" elementType="Header">
-                  <stringProp name="Header.name">User-Agent</stringProp>
-                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36</stringProp>
-                </elementProp>
-                <elementProp name="" elementType="Header">
-                  <stringProp name="Header.name">Host</stringProp>
-                  <stringProp name="Header.value">${cpq_server}:${cpq_port}</stringProp>
-                </elementProp>
-              </collectionProp>
-            </HeaderManager>
-            <hashTree/>
-            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
-              <stringProp name="JSONPostProcessor.referenceNames">po1charaItemId</stringProp>
-              <stringProp name="JSONPostProcessor.jsonPathExprs">cartItem[0].id</stringProp>
-              <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
-              <stringProp name="JSONPostProcessor.defaultValues">0</stringProp>
-            </JSONPostProcessor>
-            <hashTree/>
-          </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Add_ext_related_data" enabled="true">
-            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-              <collectionProp name="Arguments.arguments">
-                <elementProp name="" elementType="HTTPArgument">
-                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">[&#xd;
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">${cpq_server}</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">${cpq_protocol}</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">cpq/shoppingCart/v1/shoppingCart/${scId}</stringProp>
+              <stringProp name="HTTPSampler.method">PATCH</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout">100000</stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">Authorization</stringProp>
+                    <stringProp name="Header.value">Bearer ${cwtoken}</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">Content-Type</stringProp>
+                    <stringProp name="Header.value">application/json-patch+json</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">Accept</stringProp>
+                    <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">Accept-Language</stringProp>
+                    <stringProp name="Header.value">en-US,en;q=0.9</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">Proxy-Connection</stringProp>
+                    <stringProp name="Header.value">keep-alive</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">Host</stringProp>
+                    <stringProp name="Header.value">${cpq_server}:${cpq_port}</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+              <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
+                <stringProp name="JSONPostProcessor.referenceNames">po1charaItemId</stringProp>
+                <stringProp name="JSONPostProcessor.jsonPathExprs">cartItem[0].id</stringProp>
+                <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
+                <stringProp name="JSONPostProcessor.defaultValues">0</stringProp>
+              </JSONPostProcessor>
+              <hashTree/>
+            </hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Add_ext_related_data" enabled="false">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">[&#xd;
     {&#xd;
         &quot;op&quot;: &quot;add&quot;,&#xd;
         &quot;path&quot;: &quot;/cartItem/1/relatedParty&quot;,&#xd;
@@ -3024,62 +3103,63 @@ else
         ]&#xd;
     }&#xd;
 ]</stringProp>
-                  <stringProp name="Argument.metadata">=</stringProp>
-                </elementProp>
-              </collectionProp>
-            </elementProp>
-            <stringProp name="HTTPSampler.domain">${cpq_server}</stringProp>
-            <stringProp name="HTTPSampler.port">${cpq_port}</stringProp>
-            <stringProp name="HTTPSampler.protocol">${cpq_protocol}</stringProp>
-            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/cpq/shoppingCart/v1/shoppingCart/${scId}?price=true</stringProp>
-            <stringProp name="HTTPSampler.method">PATCH</stringProp>
-            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-            <stringProp name="HTTPSampler.response_timeout">100000</stringProp>
-          </HTTPSamplerProxy>
-          <hashTree>
-            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
-              <collectionProp name="HeaderManager.headers">
-                <elementProp name="" elementType="Header">
-                  <stringProp name="Header.name">Authorization</stringProp>
-                  <stringProp name="Header.value">Bearer ${cwtoken}</stringProp>
-                </elementProp>
-                <elementProp name="" elementType="Header">
-                  <stringProp name="Header.name">Content-Type</stringProp>
-                  <stringProp name="Header.value">application/json-patch+json</stringProp>
-                </elementProp>
-                <elementProp name="" elementType="Header">
-                  <stringProp name="Header.name">Accept</stringProp>
-                  <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
-                </elementProp>
-                <elementProp name="" elementType="Header">
-                  <stringProp name="Header.name">Accept-Language</stringProp>
-                  <stringProp name="Header.value">en-US,en;q=0.9</stringProp>
-                </elementProp>
-                <elementProp name="" elementType="Header">
-                  <stringProp name="Header.name">Accept-Encoding</stringProp>
-                  <stringProp name="Header.value">gzip, deflate</stringProp>
-                </elementProp>
-                <elementProp name="" elementType="Header">
-                  <stringProp name="Header.name">Proxy-Connection</stringProp>
-                  <stringProp name="Header.value">keep-alive</stringProp>
-                </elementProp>
-                <elementProp name="" elementType="Header">
-                  <stringProp name="Header.name">User-Agent</stringProp>
-                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36</stringProp>
-                </elementProp>
-                <elementProp name="" elementType="Header">
-                  <stringProp name="Header.name">Host</stringProp>
-                  <stringProp name="Header.value">${cpq_server}:${cpq_port}</stringProp>
-                </elementProp>
-              </collectionProp>
-            </HeaderManager>
-            <hashTree/>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">${cpq_server}</stringProp>
+              <stringProp name="HTTPSampler.port">${cpq_port}</stringProp>
+              <stringProp name="HTTPSampler.protocol">${cpq_protocol}</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">/cpq/shoppingCart/v1/shoppingCart/${scId}?price=true</stringProp>
+              <stringProp name="HTTPSampler.method">PATCH</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout">100000</stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">Authorization</stringProp>
+                    <stringProp name="Header.value">Bearer ${cwtoken}</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">Content-Type</stringProp>
+                    <stringProp name="Header.value">application/json-patch+json</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">Accept</stringProp>
+                    <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">Accept-Language</stringProp>
+                    <stringProp name="Header.value">en-US,en;q=0.9</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">Proxy-Connection</stringProp>
+                    <stringProp name="Header.value">keep-alive</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">Host</stringProp>
+                    <stringProp name="Header.value">${cpq_server}:${cpq_port}</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+            </hashTree>
           </hashTree>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Add_PO_to_cart" enabled="false">
@@ -3834,7 +3914,7 @@ log.info(scId+&quot;.xls is uploaded to bucket:quantity-personalization-file suc
   &quot;state&quot;: &quot;present&quot;,&#xd;
   &quot;note&quot;: [&#xd;
     {&#xd;
-      &quot;id&quot;: 23,&#xd;
+      &quot;id&quot;: &quot;${scId}&quot;,&#xd;
       &quot;author&quot;: &quot;upadmin&quot;,&#xd;
       &quot;text&quot;: &quot;presented&quot;&#xd;
     }&#xd;
@@ -3992,6 +4072,22 @@ log.info(scId+&quot;.xls is uploaded to bucket:quantity-personalization-file suc
           <stringProp name="TestPlan.comments">Submit SC</stringProp>
         </HTTPSamplerProxy>
         <hashTree>
+          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <boolProp name="resetInterpreter">false</boolProp>
+            <stringProp name="script">
+
+ // pass true if want to append to existing file  
+ // if want to overwrite, then don&apos;t pass the second argument
+ FileWriter fstream = new FileWriter(&quot;/opt/erinksh/result/orderIds&quot;, true);
+ BufferedWriter out = new BufferedWriter(fstream);
+ out.write(&quot;${orderID}&quot;);
+ out.write(System.getProperty(&quot;line.separator&quot;));
+ out.close();
+ fstream.close();</stringProp>
+          </BeanShellPostProcessor>
+          <hashTree/>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
               <elementProp name="" elementType="Header">
@@ -4036,102 +4132,532 @@ log.info(scId+&quot;.xls is uploaded to bucket:quantity-personalization-file suc
             <stringProp name="JSONPostProcessor.defaultValues">NOT_FOUND</stringProp>
           </JSONPostProcessor>
           <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="extractOrderID" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">orderID</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.orderId</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
         </hashTree>
       </hashTree>
-      <PostThreadGroup guiclass="PostThreadGroupGui" testclass="PostThreadGroup" testname="Generate Excel Report" enabled="false">
-        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="OM_Order" enabled="false">
+        <stringProp name="ThreadGroup.on_sample_error">startnextloop</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">1</stringProp>
+          <intProp name="LoopController.loops">-1</intProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">30</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">10</stringProp>
+        <boolProp name="ThreadGroup.scheduler">true</boolProp>
+        <stringProp name="ThreadGroup.duration">1200</stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="JSR223 Sampler" enabled="true">
+          <stringProp name="scriptLanguage">groovy</stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="cacheKey">false</stringProp>
+          <stringProp name="script">vars.put(&quot;customerId&quot;,&quot;${__UUID()}&quot;.replace(&quot;-&quot;,&quot;&quot;));
+vars.put(&quot;uploadid&quot;,&quot;${__UUID()}&quot;.replace(&quot;-&quot;,&quot;&quot;));
+
+vars.put(&quot;orderId&quot;,&quot;${__UUID()}&quot;.replace(&quot;-&quot;,&quot;&quot;));
+vars.put(&quot;placeref&quot;,&quot;${__UUID()}&quot;.replace(&quot;-&quot;,&quot;&quot;));
+</stringProp>
+        </JSR223Sampler>
+        <hashTree/>
+        <OnceOnlyController guiclass="OnceOnlyControllerGui" testclass="OnceOnlyController" testname="Once Only Controller - Get Token" enabled="true"/>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get CWToken" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${server_eoc}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/eoc/avmSecurity/getToken</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Basic dXBhZG1pbjp1cGFkbWlu</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="CWToken Extractor" enabled="true">
+              <stringProp name="JSONPostProcessor.referenceNames">cwtoken</stringProp>
+              <stringProp name="JSONPostProcessor.jsonPathExprs">$.cwtoken</stringProp>
+              <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
+            </JSONPostProcessor>
+            <hashTree/>
+            <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="false">
+              <stringProp name="scriptLanguage">groovy</stringProp>
+              <stringProp name="parameters"></stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="cacheKey">true</stringProp>
+              <stringProp name="script">po1chara = vars.get(&quot;PO1CHARA&quot;);
+po3chara = vars.get(&quot;PO3CHARA&quot;);
+po5chara = vars.get(&quot;PO5CHARA&quot;);
+bpo = vars.get(&quot;BPO&quot;);
+
+
+if (po1chara != &quot;&quot;)
+  props.put(&quot;PONAME&quot;, po1chara);
+else if (po3chara != &quot;&quot;)
+  props.put(&quot;PONAME&quot;, po3chara);
+else if (po5chara != &quot;&quot;)
+  props.put(&quot;PONAME&quot;, po5chara);
+else
+  props.put(&quot;PONAME&quot;, bpo);</stringProp>
+            </JSR223PostProcessor>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create_OM_Order" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+	&quot;createdBy&quot;: &quot;upadmin&quot;,&#xd;
+	&quot;requestedCompletionDate&quot;: &quot;2021-12-31T11:37:18.318Z&quot;,&#xd;
+	&quot;run&quot;: true,&#xd;
+	&quot;relatedParties&quot;: [&#xd;
+		{&#xd;
+			&quot;role&quot;: &quot;Customer&quot;,&#xd;
+			&quot;reference&quot;: &quot;${customerId}&quot;&#xd;
+		}&#xd;
+	],&#xd;
+	&quot;orderItems&quot;: [&#xd;
+		{&#xd;
+			&quot;item&quot;: {&#xd;
+				&quot;id&quot;: &quot;7099629ebd8040a5a9ed7b907a19552c&quot;,&#xd;
+				&quot;createdBy&quot;: &quot;upadmin&quot;,&#xd;
+				&quot;createdDate&quot;: &quot;2021-12-20T05:32:29.837Z&quot;,&#xd;
+				&quot;description&quot;: &quot;SIM Card&quot;,&#xd;
+				&quot;orderType&quot;: &quot;ProductOfferingOrder&quot;,&#xd;
+				&quot;action&quot;: &quot;Add&quot;,&#xd;
+				&quot;relatedEntities&quot;: [&#xd;
+					{&#xd;
+						&quot;type&quot;: &quot;Contract&quot;,&#xd;
+						&quot;reference&quot;: &quot;5b1ed71e-a24c-499f-b351-ed7ffbce6479&quot;,&#xd;
+						&quot;entitySpecification&quot;: &quot;PreMobileTechnicalContract&quot;&#xd;
+					}&#xd;
+				],&#xd;
+				&quot;fileReference&quot;: &quot;21354-9210-10016999-38384291.xls&quot;,&#xd;
+				&quot;cartItemId&quot;: &quot;7099629e-bd80-40a5-a9ed-7b907a19552c&quot;,&#xd;
+				&quot;quantity&quot;: {&#xd;
+					&quot;amount&quot;: 75&#xd;
+				},&#xd;
+				&quot;productOffering&quot;: {&#xd;
+					&quot;id&quot;: &quot;PO_MVP_PRE_SIM_CARD&quot;&#xd;
+				},&#xd;
+				&quot;product&quot;: {&#xd;
+					&quot;productCharacteristics&quot;: [&#xd;
+						{&#xd;
+							&quot;name&quot;: &quot;serialNumber&quot;,&#xd;
+							&quot;valueReference&quot;: &quot;xls://21354-9210-10016999-38384291.xls/PO_MVP_PRE_SIM_CARD_7099629e//serialNumber&quot;&#xd;
+						},&#xd;
+						{&#xd;
+							&quot;name&quot;: &quot;pin&quot;,&#xd;
+							&quot;valueReference&quot;: &quot;xls://21354-9210-10016999-38384291.xls/PO_MVP_PRE_SIM_CARD_7099629e//pin&quot;&#xd;
+						},&#xd;
+						{&#xd;
+							&quot;name&quot;: &quot;puk&quot;,&#xd;
+							&quot;valueReference&quot;: &quot;xls://21354-9210-10016999-38384291.xls/PO_MVP_PRE_SIM_CARD_7099629e//puk&quot;&#xd;
+						},&#xd;
+						{&#xd;
+							&quot;name&quot;: &quot;imsi&quot;,&#xd;
+							&quot;valueReference&quot;: &quot;xls://21354-9210-10016999-38384291.xls/PO_MVP_PRE_SIM_CARD_7099629e//imsi&quot;&#xd;
+						},&#xd;
+						{&#xd;
+							&quot;name&quot;: &quot;sku&quot;,&#xd;
+							&quot;valueReference&quot;: &quot;xls://21354-9210-10016999-38384291.xls/PO_MVP_PRE_SIM_CARD_7099629e//sku&quot;&#xd;
+						},&#xd;
+						{&#xd;
+							&quot;name&quot;: &quot;instance_state&quot;&#xd;
+						}&#xd;
+					],&#xd;
+					&quot;productSpecification&quot;: &quot;PS_MVP_PRE_SIM_CARD&quot;,&#xd;
+					&quot;resourceReferences&quot;: [&#xd;
+						{&#xd;
+							&quot;id&quot;: &quot;c58b7833265247b4bd71bcdec73cb267&quot;&#xd;
+						}&#xd;
+					],&#xd;
+					&quot;action&quot;: &quot;Add&quot;,&#xd;
+					&quot;externalId&quot;: &quot;7099629e-bd80-40a5-a9ed-7b907a19552c&quot;&#xd;
+				},&#xd;
+				&quot;resources&quot;: [&#xd;
+					{&#xd;
+						&quot;resourceCharacteristics&quot;: [&#xd;
+							{&#xd;
+								&quot;name&quot;: &quot;simType&quot;&#xd;
+							},&#xd;
+							{&#xd;
+								&quot;name&quot;: &quot;simTechnology&quot;&#xd;
+							},&#xd;
+							{&#xd;
+								&quot;name&quot;: &quot;serialNumber&quot;,&#xd;
+								&quot;valueReference&quot;: &quot;xls://21354-9210-10016999-38384291.xls/PO_MVP_PRE_SIM_CARD_7099629e//serialNumber&quot;&#xd;
+							},&#xd;
+							{&#xd;
+								&quot;name&quot;: &quot;pin&quot;,&#xd;
+								&quot;valueReference&quot;: &quot;xls://21354-9210-10016999-38384291.xls/PO_MVP_PRE_SIM_CARD_7099629e//pin&quot;&#xd;
+							},&#xd;
+							{&#xd;
+								&quot;name&quot;: &quot;vendor&quot;&#xd;
+							},&#xd;
+							{&#xd;
+								&quot;name&quot;: &quot;puk&quot;,&#xd;
+								&quot;valueReference&quot;: &quot;xls://21354-9210-10016999-38384291.xls/PO_MVP_PRE_SIM_CARD_7099629e//puk&quot;&#xd;
+							},&#xd;
+							{&#xd;
+								&quot;name&quot;: &quot;imsi&quot;,&#xd;
+								&quot;valueReference&quot;: &quot;xls://21354-9210-10016999-38384291.xls/PO_MVP_PRE_SIM_CARD_7099629e//imsi&quot;&#xd;
+							},&#xd;
+							{&#xd;
+								&quot;name&quot;: &quot;sku&quot;,&#xd;
+								&quot;valueReference&quot;: &quot;xls://21354-9210-10016999-38384291.xls/PO_MVP_PRE_SIM_CARD_7099629e//sku&quot;&#xd;
+							},&#xd;
+							{&#xd;
+								&quot;name&quot;: &quot;instance_state&quot;&#xd;
+							}&#xd;
+						],&#xd;
+						&quot;resourceSpecification&quot;: &quot;PRS_MVP_PRE_SIM_CARD&quot;,&#xd;
+						&quot;isLogical&quot;: false,&#xd;
+						&quot;parentId&quot;: &quot;7099629ebd8040a5a9ed7b907a19552c&quot;,&#xd;
+						&quot;resourceType&quot;: &quot;Accessory&quot;,&#xd;
+						&quot;action&quot;: &quot;Add&quot;,&#xd;
+						&quot;id&quot;: &quot;c58b7833265247b4bd71bcdec73cb267&quot;,&#xd;
+						&quot;externalId&quot;: &quot;c58b7833-2652-47b4-bd71-bcdec73cb267&quot;&#xd;
+					}&#xd;
+				]&#xd;
+			}&#xd;
+		},&#xd;
+		{&#xd;
+			&quot;item&quot;: {&#xd;
+				&quot;id&quot;: &quot;5b1ed71ea24c499fb351ed7ffbce6479&quot;,&#xd;
+				&quot;createdBy&quot;: &quot;upadmin&quot;,&#xd;
+				&quot;createdDate&quot;: &quot;2021-12-20T05:32:29.837Z&quot;,&#xd;
+				&quot;description&quot;: &quot;Mobile Technical Contract&quot;,&#xd;
+				&quot;orderType&quot;: &quot;CustomerChangeOrder&quot;,&#xd;
+				&quot;action&quot;: &quot;Add&quot;,&#xd;
+				&quot;relatedEntities&quot;: [&#xd;
+					{&#xd;
+						&quot;type&quot;: &quot;Contract&quot;,&#xd;
+						&quot;name&quot;: &quot;Mobile Technical Contract&quot;,&#xd;
+						&quot;reference&quot;: &quot;5b1ed71e-a24c-499f-b351-ed7ffbce6479&quot;,&#xd;
+						&quot;entitySpecification&quot;: &quot;PreMobileTechnicalContract&quot;,&#xd;
+						&quot;entity&quot;: {&#xd;
+							&quot;statuses&quot;: [&#xd;
+								{&#xd;
+									&quot;status&quot;: &quot;ContractActive&quot;&#xd;
+								}&#xd;
+							]&#xd;
+						}&#xd;
+					}&#xd;
+				],&#xd;
+				&quot;externalId&quot;: &quot;5b1ed71e-a24c-499f-b351-ed7ffbce6479&quot;,&#xd;
+				&quot;cartItemId&quot;: &quot;5b1ed71e-a24c-499f-b351-ed7ffbce6479&quot;,&#xd;
+				&quot;quantity&quot;: {&#xd;
+					&quot;amount&quot;: 75&#xd;
+				}&#xd;
+			}&#xd;
+		}&#xd;
+	],&#xd;
+	&quot;orderSpec&quot;: {&#xd;
+		&quot;name&quot;: &quot;ProductOrder&quot;,&#xd;
+		&quot;orderItemAddingType&quot;: &quot;ItemByItem&quot;,&#xd;
+		&quot;characteristics&quot;: [&#xd;
+			{&#xd;
+				&quot;name&quot;: &quot;loadInstalledBaseStrategy&quot;,&#xd;
+				&quot;value&quot;: &quot;NOSR&quot;&#xd;
+			},&#xd;
+			{&#xd;
+				&quot;name&quot;: &quot;skipBasketRepricing&quot;,&#xd;
+				&quot;value&quot;: &quot;true&quot;&#xd;
+			}&#xd;
+		]&#xd;
+	},&#xd;
+	&quot;requester&quot;: &quot;upadmin&quot;,&#xd;
+	&quot;requestID&quot;: &quot;${orderId}&quot;,&#xd;
+	&quot;actionScope&quot;: &quot;PerItemUnderPOOI&quot;,&#xd;
+	&quot;shoppingCartId&quot;: &quot;21354-9210-10016999-383842434&quot;&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${cpq_server}</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol">${cpq_protocol}</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/eoc/om/v1/order/</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout">100000</stringProp>
+          <stringProp name="TestPlan.comments">Create Order </stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Authorization</stringProp>
+                <stringProp name="Header.value">Bearer ${cwtoken}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept</stringProp>
+                <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept-Language</stringProp>
+                <stringProp name="Header.value">en-US,en;q=0.9</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept-Encoding</stringProp>
+                <stringProp name="Header.value">gzip, deflate</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Proxy-Connection</stringProp>
+                <stringProp name="Header.value">keep-alive</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">User-Agent</stringProp>
+                <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Host</stringProp>
+                <stringProp name="Header.value">${cpq_server}:${cpq_port}</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="extractOrderID" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">orderID</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.id</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="extractState" enabled="false">
+            <stringProp name="JSONPostProcessor.referenceNames">state</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.state</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <boolProp name="resetInterpreter">false</boolProp>
+            <stringProp name="script">
+
+ // pass true if want to append to existing file  
+ // if want to overwrite, then don&apos;t pass the second argument
+ FileWriter fstream = new FileWriter(&quot;/opt/erinksh/result/orderIds&quot;, true);
+ BufferedWriter out = new BufferedWriter(fstream);
+ out.write(&quot;${orderID}&quot;);
+ out.write(System.getProperty(&quot;line.separator&quot;));
+ out.close();
+ fstream.close();</stringProp>
+          </BeanShellPostProcessor>
+          <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+            <stringProp name="ConstantTimer.delay">6000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Check order status" enabled="false">
+        <stringProp name="ThreadGroup.on_sample_error">startnextloop</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">1</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">10</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
-        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.duration">300</stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
-        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
-        <stringProp name="TestPlan.comments">Pre-requisites:
-1. generateReport.jar must be added to Test Plan class path
-2. User defined variables must be set for report generation
-3. KPICOnfig.xml must have the KPIs, otherwise empty report generate</stringProp>
-      </PostThreadGroup>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+      </ThreadGroup>
       <hashTree>
-        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BeanShell Sampler" enabled="false">
-          <stringProp name="BeanShellSampler.query">import org.apache.jmeter.gui.GuiPackage;
-import org.apache.jmeter.gui.JMeterGUIComponent;
-import org.apache.jmeter.gui.tree.JMeterTreeNode;
-import org.apache.jmeter.samplers.Clearable;
-
-log.info(&quot;Clearing All ...&quot;);
-
-guiPackage = GuiPackage.getInstance();
-
-guiPackage.getMainFrame().clearData();
-for (JMeterTreeNode node : guiPackage.getTreeModel().getNodesOfType(Clearable.class)) {
-    JMeterGUIComponent guiComp = guiPackage.getGui(node.getTestElement());
-    if (guiComp instanceof Clearable){
-        Clearable item = (Clearable) guiComp;
-        try {
-            item.clearData();
-        } catch (Exception ex) {
-            log.error(&quot;Can&apos;t clear: &quot;+node+&quot; &quot;+guiComp, ex);
-        }
-    }
-}</stringProp>
-          <stringProp name="BeanShellSampler.filename"></stringProp>
-          <stringProp name="BeanShellSampler.parameters"></stringProp>
-          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
-        </BeanShellSampler>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+          <stringProp name="delimiter">,</stringProp>
+          <stringProp name="fileEncoding"></stringProp>
+          <stringProp name="filename">/opt/erinksh/result/orderIds</stringProp>
+          <boolProp name="ignoreFirstLine">false</boolProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">false</boolProp>
+          <stringProp name="shareMode">shareMode.all</stringProp>
+          <boolProp name="stopThread">true</boolProp>
+          <stringProp name="variableNames">orderID</stringProp>
+        </CSVDataSet>
         <hashTree/>
-        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="if (generateReport == true)" enabled="true">
-          <stringProp name="IfController.condition">${__groovy(&quot;${generateReport}&quot;.equals(&quot;true&quot;))}</stringProp>
-          <boolProp name="IfController.evaluateAll">false</boolProp>
-          <boolProp name="IfController.useExpression">true</boolProp>
-        </IfController>
+        <OnceOnlyController guiclass="OnceOnlyControllerGui" testclass="OnceOnlyController" testname="Once Only Controller - Get Token" enabled="true"/>
         <hashTree>
-          <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="Get StartTime" enabled="true">
-            <stringProp name="scriptLanguage">groovy</stringProp>
-            <stringProp name="parameters"></stringProp>
-            <stringProp name="filename"></stringProp>
-            <stringProp name="cacheKey">false</stringProp>
-            <stringProp name="script">vars.put(&quot;testStartTime&quot;,&quot;&quot;+${__P(JmeterTestStartTime)})</stringProp>
-          </JSR223Sampler>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get CWToken" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${server_eoc}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/eoc/avmSecurity/getToken</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Basic dXBhZG1pbjp1cGFkbWlu</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="CWToken Extractor" enabled="true">
+              <stringProp name="JSONPostProcessor.referenceNames">cwtoken</stringProp>
+              <stringProp name="JSONPostProcessor.jsonPathExprs">$.cwtoken</stringProp>
+              <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
+            </JSONPostProcessor>
+            <hashTree/>
+            <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="false">
+              <stringProp name="scriptLanguage">groovy</stringProp>
+              <stringProp name="parameters"></stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="cacheKey">true</stringProp>
+              <stringProp name="script">po1chara = vars.get(&quot;PO1CHARA&quot;);
+po3chara = vars.get(&quot;PO3CHARA&quot;);
+po5chara = vars.get(&quot;PO5CHARA&quot;);
+bpo = vars.get(&quot;BPO&quot;);
+
+
+if (po1chara != &quot;&quot;)
+  props.put(&quot;PONAME&quot;, po1chara);
+else if (po3chara != &quot;&quot;)
+  props.put(&quot;PONAME&quot;, po3chara);
+else if (po5chara != &quot;&quot;)
+  props.put(&quot;PONAME&quot;, po5chara);
+else
+  props.put(&quot;PONAME&quot;, bpo);</stringProp>
+            </JSR223PostProcessor>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get_OM_Order" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${cpq_server}</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol">${cpq_protocol}</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/eoc/om/v1/order/${orderID}</stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout">100000</stringProp>
+          <stringProp name="TestPlan.comments">Create Order </stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Authorization</stringProp>
+                <stringProp name="Header.value">Bearer ${cwtoken}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept</stringProp>
+                <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept-Language</stringProp>
+                <stringProp name="Header.value">en-US,en;q=0.9</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept-Encoding</stringProp>
+                <stringProp name="Header.value">gzip, deflate</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Proxy-Connection</stringProp>
+                <stringProp name="Header.value">keep-alive</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">User-Agent</stringProp>
+                <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Host</stringProp>
+                <stringProp name="Header.value">${cpq_server}:${cpq_port}</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
           <hashTree/>
-          <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="GenerateReport" enabled="true">
-            <stringProp name="scriptLanguage">groovy</stringProp>
-            <stringProp name="parameters"></stringProp>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="extractOrderStatus" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">orderState</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.state</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="extractState" enabled="false">
+            <stringProp name="JSONPostProcessor.referenceNames">state</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.state</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
             <stringProp name="filename"></stringProp>
-            <stringProp name="cacheKey">false</stringProp>
-            <stringProp name="script">import com.ericsson.lsv.main.PrepareReport;
-import org.apache.jmeter.threads.JMeterVariables;
-import org.apache.commons.io.FileUtils;
-import java.nio.charset.StandardCharsets;
+            <stringProp name="parameters"></stringProp>
+            <boolProp name="resetInterpreter">false</boolProp>
+            <stringProp name="script">
 
-
-try{
-
-	osType = System.getProperty(&quot;os.name&quot;);
-	temporaryFile = osType.contains(&quot;Linux&quot;)?vars.get(&quot;reportPath&quot;)+&quot;/temfile.xml&quot;:vars.get(&quot;reportPath&quot;)+&quot;\\temfile.xml&quot;;
-	log.info(temporaryFile);
-	vars.put(&quot;temporaryFile&quot;, temporaryFile);
-	xlsReport = osType.contains(&quot;Linux&quot;)?vars.get(&quot;reportPath&quot;)+&quot;/&quot;+vars.get(&quot;reportName&quot;):vars.get(&quot;reportPath&quot;)+&quot;\\&quot;+vars.get(&quot;reportName&quot;);
-	vars.put(&quot;xlsReport&quot;, xlsReport);
-	PrepareReport report = new PrepareReport();
-	FileUtils.copyFile(new File(vars.get(&quot;logFile&quot;)),new File(temporaryFile));
-	FileUtils.writeStringToFile(new File(temporaryFile), &quot;&lt;/testResults&gt;&quot;, StandardCharsets.UTF_8, true);
-	report.main(new String[]{&quot;-c&quot;,vars.get(&quot;kpiConfigFile&quot;),&quot;-o&quot;,vars.get(&quot;xlsReport&quot;),&quot;-t&quot;,vars.get(&quot;totalThread&quot;),&quot;-e&quot;,vars.get(&quot;overwrite&quot;),&quot;-jl&quot;,vars.get(&quot;temporaryFile&quot;),&quot;-f&quot;,vars.get(&quot;reportPath&quot;),&quot;-td&quot;,vars.get(&quot;buildNo&quot;),&quot;-rh&quot;,vars.get(&quot;heading&quot;), &quot;-ts&quot;, vars.get(&quot;testStartTime&quot;)});
-	new File(temporaryFile).delete();
-	report = null;
-	JMeterVariables clean = new JMeterVariables(); 
-	vars = clean;
-	
-}
-catch (Exception ex) {
-    log.error(ex.getMessage());
-    ex.printStackTrace();
-}
-</stringProp>
-          </JSR223Sampler>
+ // pass true if want to append to existing file  
+ // if want to overwrite, then don&apos;t pass the second argument
+ FileWriter fstream = new FileWriter(&quot;/opt/erinksh/result/orderStatus&quot;, true);
+ BufferedWriter out = new BufferedWriter(fstream);
+ out.write(&quot;${orderID},${orderState}&quot;);
+ out.write(System.getProperty(&quot;line.separator&quot;));
+ out.close();
+ fstream.close();</stringProp>
+          </BeanShellPostProcessor>
           <hashTree/>
         </hashTree>
       </hashTree>
