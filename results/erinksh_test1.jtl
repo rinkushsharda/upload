@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="999" it="0" lt="0" ct="0" ts="1641957791785" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="818" it="0" lt="812" ct="594" ts="1641957793190" s="true" lb="Get CWToken" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="1667" sby="223" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/avmSecurity/getToken</java.net.URL>
+</httpSample>
+<httpSample t="21" it="0" lt="21" ct="0" ts="1641957794193" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<sample t="51" it="0" lt="0" ct="0" ts="1641957794351" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="50" it="0" lt="50" ct="34" ts="1641957794543" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<sample t="40" it="0" lt="0" ct="0" ts="1641957794720" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="46" it="0" lt="46" ct="37" ts="1641957794898" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<sample t="41" it="0" lt="0" ct="0" ts="1641957795070" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="41" it="0" lt="41" ct="32" ts="1641957795232" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<sample t="37" it="0" lt="0" ct="0" ts="1641957795449" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="42" it="0" lt="42" ct="27" ts="1641957795647" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<sample t="29" it="0" lt="0" ct="0" ts="1641957795813" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="46" it="0" lt="46" ct="29" ts="1641957795977" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<sample t="33" it="0" lt="0" ct="0" ts="1641957796194" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="32" it="0" lt="32" ct="21" ts="1641957796351" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<sample t="31" it="0" lt="0" ct="0" ts="1641957796507" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="39" it="0" lt="39" ct="24" ts="1641957796685" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<sample t="23" it="0" lt="0" ct="0" ts="1641957796887" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="39" it="0" lt="39" ct="22" ts="1641957797040" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<sample t="49" it="0" lt="0" ct="0" ts="1641957797287" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="42" it="0" lt="42" ct="17" ts="1641957797470" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<sample t="22" it="0" lt="0" ct="0" ts="1641957797642" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="35" it="0" lt="35" ct="20" ts="1641957797790" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<sample t="23" it="0" lt="0" ct="0" ts="1641957797951" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="24" it="0" lt="24" ct="16" ts="1641957798122" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<sample t="21" it="0" lt="0" ct="0" ts="1641957798269" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="30" it="0" lt="30" ct="22" ts="1641957798457" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<sample t="28" it="0" lt="0" ct="0" ts="1641957798652" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="33" it="0" lt="33" ct="18" ts="1641957798800" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<sample t="18" it="0" lt="0" ct="0" ts="1641957799006" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="29" it="0" lt="29" ct="14" ts="1641957799144" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<sample t="20" it="0" lt="0" ct="0" ts="1641957799311" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="37" it="0" lt="37" ct="22" ts="1641957799505" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<sample t="17" it="0" lt="0" ct="0" ts="1641957799669" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="32" it="0" lt="32" ct="17" ts="1641957799835" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<sample t="33" it="0" lt="0" ct="0" ts="1641957800155" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="32" it="0" lt="32" ct="18" ts="1641957800316" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<sample t="29" it="0" lt="0" ct="0" ts="1641957800477" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="20" it="0" lt="20" ct="13" ts="1641957800626" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<sample t="16" it="0" lt="0" ct="0" ts="1641957800769" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="30" it="0" lt="30" ct="16" ts="1641957800952" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<sample t="29" it="0" lt="0" ct="0" ts="1641957801128" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="23" it="0" lt="23" ct="15" ts="1641957801281" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+<sample t="17" it="0" lt="0" ct="0" ts="1641957801422" s="true" lb="JSR223 Sampler" rc="200" rm="OK" tn="Quantity_Based_SC 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="38" it="0" lt="38" ct="22" ts="1641957801617" s="false" lb="Create_empty_SC" rc="400" rm="Bad Request" tn="Quantity_Based_SC 1-1" dt="text" by="484" sby="1995" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart</java.net.URL>
+</httpSample>
+
+</testResults>
