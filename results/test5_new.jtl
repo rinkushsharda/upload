@@ -1,0 +1,378 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1641965744505,987,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965745869,898,Get CWToken,200,OK,Quantity_Based_SC 1-1,text,true,,1667,223,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/avmSecurity/getToken,893,0,696
+1641965746956,61,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,61,0,0
+1641965747390,50,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002723-45077491,46,0,0
+1641965747602,20,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002723-45077491/downloadTemplate,18,0,0
+1641965751300,5,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,6815,0,1,1,null,0,0,0
+1641965751449,28,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002723-45077491/attachFile,28,0,0
+1641965751616,22,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965751777,76,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,76,0,41
+1641965752000,39,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002752-69733273,37,0,0
+1641965752216,21,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002752-69733273/downloadTemplate,20,0,0
+1641965754608,4,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,6885,0,1,1,null,0,0,0
+1641965754745,30,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002752-69733273/attachFile,30,0,0
+1641965754914,21,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965755113,59,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,59,0,36
+1641965755307,36,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002781-16604064,34,0,0
+1641965755477,17,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002781-16604064/downloadTemplate,17,0,0
+1641965757657,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,6955,0,1,1,null,0,0,0
+1641965757785,26,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002781-16604064/attachFile,26,0,0
+1641965757940,24,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965758082,58,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,57,0,27
+1641965758274,36,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002810-64003708,33,0,0
+1641965758445,17,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002810-64003708/downloadTemplate,16,0,0
+1641965760537,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,7025,0,1,1,null,0,0,0
+1641965760668,25,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002810-64003708/attachFile,25,0,0
+1641965760818,19,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965760973,62,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,62,0,32
+1641965761157,37,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002839-37987954,36,0,0
+1641965761324,17,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002839-37987954/downloadTemplate,16,0,0
+1641965763615,4,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,7095,0,1,1,null,0,0,0
+1641965763741,28,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002839-37987954/attachFile,28,0,0
+1641965763901,22,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965764059,59,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,59,0,31
+1641965764233,34,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002868-60934880,33,0,0
+1641965764398,16,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002868-60934880/downloadTemplate,16,0,0
+1641965766521,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,7165,0,1,1,null,0,0,0
+1641965766641,26,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002868-60934880/attachFile,26,0,0
+1641965766801,17,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965766939,43,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,43,0,21
+1641965767110,35,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002897-25525218,34,0,0
+1641965767276,16,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002897-25525218/downloadTemplate,16,0,0
+1641965769534,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,7235,0,1,1,null,0,0,0
+1641965769654,27,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002897-25525218/attachFile,27,0,0
+1641965769808,17,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965769993,61,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,61,0,32
+1641965770180,34,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002926-83346761,33,0,0
+1641965770348,27,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002926-83346761/downloadTemplate,26,0,0
+1641965772551,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,7305,0,1,1,null,0,0,0
+1641965772672,26,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002926-83346761/attachFile,26,0,0
+1641965772850,22,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965773033,63,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,63,0,32
+1641965773228,35,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002955-46397622,34,0,0
+1641965773389,15,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002955-46397622/downloadTemplate,15,0,0
+1641965775562,4,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,7375,0,1,1,null,0,0,0
+1641965775683,26,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002955-46397622/attachFile,26,0,0
+1641965775841,21,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965775991,53,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,53,0,24
+1641965776172,34,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002984-25052094,32,0,0
+1641965776335,16,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002984-25052094/downloadTemplate,16,0,0
+1641965778580,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,7445,0,1,1,null,0,0,0
+1641965778697,25,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10002984-25052094/attachFile,25,0,0
+1641965778860,17,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965779003,51,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,51,0,21
+1641965779192,34,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003013-62834133,33,0,0
+1641965779396,17,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003013-62834133/downloadTemplate,17,0,0
+1641965781649,4,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,7515,0,1,1,null,0,0,0
+1641965781773,25,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003013-62834133/attachFile,25,0,0
+1641965781924,19,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965782063,45,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,45,0,16
+1641965782239,35,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003042-66867472,33,0,0
+1641965782422,16,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003042-66867472/downloadTemplate,16,0,0
+1641965784725,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,7585,0,1,1,null,0,0,0
+1641965784844,25,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003042-66867472/attachFile,25,0,0
+1641965784994,19,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965785273,65,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,65,0,35
+1641965785470,36,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003071-81875528,35,0,0
+1641965785644,16,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003071-81875528/downloadTemplate,15,0,0
+1641965787883,2,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,7655,0,1,1,null,0,0,0
+1641965787997,26,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003071-81875528/attachFile,26,0,0
+1641965788154,22,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965788364,43,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,43,0,19
+1641965788572,31,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003100-95369076,30,0,0
+1641965788723,16,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003100-95369076/downloadTemplate,15,0,0
+1641965790935,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,7725,0,1,1,null,0,0,0
+1641965791060,26,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003100-95369076/attachFile,26,0,0
+1641965791228,23,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965791369,48,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,48,0,28
+1641965791548,33,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003129-72511786,32,0,0
+1641965791727,16,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003129-72511786/downloadTemplate,16,0,0
+1641965794102,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,7795,0,1,1,null,0,0,0
+1641965794220,26,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003129-72511786/attachFile,26,0,0
+1641965794377,28,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965794521,45,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,45,0,24
+1641965794683,33,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003158-55310448,32,0,0
+1641965794848,15,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003158-55310448/downloadTemplate,14,0,0
+1641965797102,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,7865,0,1,1,null,0,0,0
+1641965797235,27,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003158-55310448/attachFile,27,0,0
+1641965797387,15,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965797516,36,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,36,0,14
+1641965797684,41,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003187-44939672,40,0,0
+1641965797855,15,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003187-44939672/downloadTemplate,15,0,0
+1641965800101,4,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,7935,0,1,1,null,0,0,0
+1641965800247,26,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003187-44939672/attachFile,26,0,0
+1641965800395,16,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965800548,35,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,35,0,15
+1641965800704,34,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003216-16855681,32,0,0
+1641965800871,16,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003216-16855681/downloadTemplate,16,0,0
+1641965803102,4,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,8005,0,1,1,null,0,0,0
+1641965803222,25,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003216-16855681/attachFile,25,0,0
+1641965803373,16,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965803503,53,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,53,0,24
+1641965803760,31,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003245-59339040,30,0,0
+1641965803932,14,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003245-59339040/downloadTemplate,13,0,0
+1641965806204,4,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,8075,0,1,1,null,0,0,0
+1641965806323,24,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003245-59339040/attachFile,24,0,0
+1641965806473,16,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965806621,53,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,53,0,25
+1641965806805,32,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003274-42617422,31,0,0
+1641965806963,15,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003274-42617422/downloadTemplate,14,0,0
+1641965809231,2,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,8145,0,1,1,null,0,0,0
+1641965809367,26,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003274-42617422/attachFile,26,0,0
+1641965809520,17,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965809654,42,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,42,0,12
+1641965809821,33,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003303-11013602,32,0,0
+1641965809981,17,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003303-11013602/downloadTemplate,16,0,0
+1641965812264,4,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,8215,0,1,1,null,0,0,0
+1641965812390,25,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003303-11013602/attachFile,25,0,0
+1641965812553,15,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965812692,36,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,36,0,14
+1641965812858,32,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003332-18599939,31,0,0
+1641965813019,15,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003332-18599939/downloadTemplate,15,0,0
+1641965815407,5,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,8285,0,1,1,null,0,0,0
+1641965815526,25,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003332-18599939/attachFile,25,0,0
+1641965815685,14,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965815814,36,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,35,0,15
+1641965815985,41,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003361-10110754,40,0,0
+1641965816155,14,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003361-10110754/downloadTemplate,14,0,0
+1641965818478,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,8355,0,1,1,null,0,0,0
+1641965818597,24,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003361-10110754/attachFile,24,0,0
+1641965818753,23,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965818892,46,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,46,0,18
+1641965819072,34,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003390-40712390,33,0,0
+1641965819238,15,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003390-40712390/downloadTemplate,14,0,0
+1641965821506,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,8425,0,1,1,null,0,0,0
+1641965821630,25,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003390-40712390/attachFile,25,0,0
+1641965821807,14,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965822007,52,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,52,0,22
+1641965822225,32,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003419-48158325,32,0,0
+1641965822385,15,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003419-48158325/downloadTemplate,14,0,0
+1641965824839,2,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,8495,0,1,1,null,0,0,0
+1641965824954,24,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003419-48158325/attachFile,24,0,0
+1641965825107,21,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965825248,44,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,44,0,15
+1641965825438,32,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003448-80740474,31,0,0
+1641965825594,14,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003448-80740474/downloadTemplate,14,0,0
+1641965827894,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,8565,0,1,1,null,0,0,0
+1641965828021,28,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003448-80740474/attachFile,28,0,0
+1641965828178,18,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965828313,36,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,36,0,15
+1641965828469,31,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003477-82748246,31,0,0
+1641965828636,15,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003477-82748246/downloadTemplate,15,0,0
+1641965831030,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,8635,0,1,1,null,0,0,0
+1641965831169,25,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003477-82748246/attachFile,24,0,0
+1641965831319,15,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965831466,35,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,35,0,14
+1641965831635,41,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003506-82592578,40,0,0
+1641965831821,14,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003506-82592578/downloadTemplate,14,0,0
+1641965834126,4,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,8705,0,1,1,null,0,0,0
+1641965834246,25,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003506-82592578/attachFile,25,0,0
+1641965834405,14,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965834553,75,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,75,0,44
+1641965834881,32,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003535-49698783,31,0,0
+1641965835069,16,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003535-49698783/downloadTemplate,15,0,0
+1641965837509,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,8775,0,1,1,null,0,0,0
+1641965837638,26,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003535-49698783/attachFile,26,0,0
+1641965837788,16,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965837927,47,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,47,0,26
+1641965838104,31,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003564-64616651,30,0,0
+1641965838266,15,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003564-64616651/downloadTemplate,15,0,0
+1641965840589,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,8845,0,1,1,null,0,0,0
+1641965840707,25,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003564-64616651/attachFile,25,0,0
+1641965840861,13,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965840988,40,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,40,0,18
+1641965841164,37,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003593-56374255,36,0,0
+1641965841327,16,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003593-56374255/downloadTemplate,16,0,0
+1641965843696,2,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,8915,0,1,1,null,0,0,0
+1641965843810,24,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003593-56374255/attachFile,24,0,0
+1641965843963,22,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641965844097,38,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,38,0,16
+1641965844265,34,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003622-92054499,33,0,0
+1641965844429,18,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003622-92054499/downloadTemplate,17,0,0
+1641994181742,930,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994183039,841,Get CWToken,200,OK,Quantity_Based_SC 1-1,text,true,,1667,223,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/avmSecurity/getToken,834,0,606
+1641994184086,113,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,113,0,0
+1641994184521,81,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003643-73489993,74,0,0
+1641994184743,29,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003643-73489993/downloadTemplate,28,0,0
+1641994188854,6,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,235,0,1,1,null,0,0,0
+1641994188990,47,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003643-73489993/attachFile,47,0,0
+1641994189204,17,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994189423,93,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,93,0,41
+1641994189676,38,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003672-94300627,36,0,0
+1641994189856,18,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003672-94300627/downloadTemplate,16,0,0
+1641994192133,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,305,0,1,1,null,0,0,0
+1641994192255,25,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003672-94300627/attachFile,25,0,0
+1641994192462,31,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994192692,61,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,60,0,32
+1641994192900,40,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003701-62755883,38,0,0
+1641994193086,20,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003701-62755883/downloadTemplate,19,0,0
+1641994195287,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,375,0,1,1,null,0,0,0
+1641994195408,27,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003701-62755883/attachFile,27,0,0
+1641994195567,20,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994195721,57,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,57,0,36
+1641994195900,39,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003730-18162985,37,0,0
+1641994196087,15,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003730-18162985/downloadTemplate,15,0,0
+1641994198401,4,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,445,0,1,1,null,0,0,0
+1641994198525,27,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003730-18162985/attachFile,27,0,0
+1641994198683,36,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994198848,56,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,55,0,25
+1641994199043,33,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003759-53982487,31,0,0
+1641994199212,15,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003759-53982487/downloadTemplate,14,0,0
+1641994201346,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,515,0,1,1,null,0,0,0
+1641994201469,23,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003759-53982487/attachFile,23,0,0
+1641994201627,23,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994201774,70,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,70,0,34
+1641994202004,34,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003788-48221454,33,0,0
+1641994202183,19,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003788-48221454/downloadTemplate,18,0,0
+1641994204426,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,585,0,1,1,null,0,0,0
+1641994204548,23,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003788-48221454/attachFile,23,0,0
+1641994204704,16,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994204847,64,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,64,0,28
+1641994205073,34,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003817-62908847,33,0,0
+1641994205268,20,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003817-62908847/downloadTemplate,20,0,0
+1641994207463,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,655,0,1,1,null,0,0,0
+1641994207636,26,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003817-62908847/attachFile,26,0,0
+1641994207819,19,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994207957,56,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,55,0,25
+1641994208221,37,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003846-18771710,36,0,0
+1641994208383,19,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003846-18771710/downloadTemplate,18,0,0
+1641994210611,2,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,725,0,1,1,null,0,0,0
+1641994210729,22,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003846-18771710/attachFile,22,0,0
+1641994210873,15,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994211011,51,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,51,0,21
+1641994211178,39,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003875-91870720,37,0,0
+1641994211353,15,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003875-91870720/downloadTemplate,14,0,0
+1641994213587,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,795,0,1,1,null,0,0,0
+1641994213709,22,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003875-91870720/attachFile,22,0,0
+1641994213852,17,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994214006,52,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,52,0,30
+1641994214195,32,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003904-55628364,31,0,0
+1641994214356,14,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003904-55628364/downloadTemplate,14,0,0
+1641994216596,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,865,0,1,1,null,0,0,0
+1641994216715,24,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003904-55628364/attachFile,24,0,0
+1641994216872,19,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994217009,40,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,40,0,20
+1641994217174,31,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003933-59565406,30,0,0
+1641994217350,14,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003933-59565406/downloadTemplate,14,0,0
+1641994219635,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,935,0,1,1,null,0,0,0
+1641994219757,25,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003933-59565406/attachFile,24,0,0
+1641994219913,16,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994220061,43,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,43,0,15
+1641994220239,36,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003962-79004510,34,0,0
+1641994220401,15,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003962-79004510/downloadTemplate,14,0,0
+1641994222628,6,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,1005,0,1,1,null,0,0,0
+1641994222751,30,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003962-79004510/attachFile,30,0,0
+1641994222910,14,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994223049,54,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,54,0,25
+1641994223234,32,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003991-11102136,31,0,0
+1641994223398,14,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003991-11102136/downloadTemplate,14,0,0
+1641994225577,2,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,1075,0,1,1,null,0,0,0
+1641994225695,24,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10003991-11102136/attachFile,23,0,0
+1641994225849,15,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994225990,42,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,42,0,15
+1641994226164,32,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004020-52090087,31,0,0
+1641994226331,17,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004020-52090087/downloadTemplate,16,0,0
+1641994228723,4,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,1145,0,1,1,null,0,0,0
+1641994228845,21,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004020-52090087/attachFile,21,0,0
+1641994228989,28,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994229137,39,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,39,0,18
+1641994229303,36,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004049-90057374,35,0,0
+1641994229468,15,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004049-90057374/downloadTemplate,15,0,0
+1641994231712,2,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,1215,0,1,1,null,0,0,0
+1641994231833,23,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004049-90057374/attachFile,22,0,0
+1641994231980,23,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994232118,38,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,38,0,17
+1641994232287,34,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004078-96318825,33,0,0
+1641994232456,14,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004078-96318825/downloadTemplate,14,0,0
+1641994234743,4,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,1285,0,1,1,null,0,0,0
+1641994234862,25,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004078-96318825/attachFile,25,0,0
+1641994235002,15,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994235130,41,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,41,0,14
+1641994235303,32,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004107-69445270,31,0,0
+1641994235487,17,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004107-69445270/downloadTemplate,16,0,0
+1641994237731,4,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,1355,0,1,1,null,0,0,0
+1641994237878,21,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004107-69445270/attachFile,21,0,0
+1641994238024,28,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994238167,35,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,34,0,14
+1641994238423,31,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004136-66985559,30,0,0
+1641994238586,15,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004136-66985559/downloadTemplate,14,0,0
+1641994240862,2,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,1425,0,1,1,null,0,0,0
+1641994240978,23,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004136-66985559/attachFile,23,0,0
+1641994241141,23,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994241290,35,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,35,0,14
+1641994241458,38,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004165-22702151,36,0,0
+1641994241629,14,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004165-22702151/downloadTemplate,14,0,0
+1641994243882,4,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,1495,0,1,1,null,0,0,0
+1641994244003,22,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004165-22702151/attachFile,22,0,0
+1641994244153,16,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994244308,42,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,42,0,21
+1641994244485,31,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004194-35042834,29,0,0
+1641994244652,14,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004194-35042834/downloadTemplate,14,0,0
+1641994246937,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,1565,0,1,1,null,0,0,0
+1641994247054,22,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004194-35042834/attachFile,21,0,0
+1641994247206,15,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994247362,43,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,43,0,16
+1641994247565,31,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004223-19732776,31,0,0
+1641994247716,14,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004223-19732776/downloadTemplate,14,0,0
+1641994250093,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,1635,0,1,1,null,0,0,0
+1641994250209,31,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004223-19732776/attachFile,31,0,0
+1641994250374,17,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994250525,45,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,45,0,18
+1641994250695,30,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004252-54984888,29,0,0
+1641994250860,18,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004252-54984888/downloadTemplate,17,0,0
+1641994253201,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,1705,0,1,1,null,0,0,0
+1641994253319,23,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004252-54984888/attachFile,23,0,0
+1641994253475,19,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994253613,34,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,34,0,14
+1641994253783,31,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004281-17933959,31,0,0
+1641994253946,15,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004281-17933959/downloadTemplate,14,0,0
+1641994256211,2,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,1775,0,1,1,null,0,0,0
+1641994256328,22,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004281-17933959/attachFile,22,0,0
+1641994256474,14,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994256618,35,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,35,0,14
+1641994256774,30,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004310-80420587,30,0,0
+1641994256932,15,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004310-80420587/downloadTemplate,14,0,0
+1641994259377,6,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,1845,0,1,1,null,0,0,0
+1641994259499,23,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004310-80420587/attachFile,23,0,0
+1641994259702,24,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994259890,44,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,44,0,17
+1641994260093,30,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004339-39590157,29,0,0
+1641994260281,13,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004339-39590157/downloadTemplate,13,0,0
+1641994262583,2,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,1915,0,1,1,null,0,0,0
+1641994262697,22,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004339-39590157/attachFile,22,0,0
+1641994262863,14,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994263004,43,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,43,0,15
+1641994263180,31,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004368-82251795,30,0,0
+1641994263336,14,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004368-82251795/downloadTemplate,13,0,0
+1641994265655,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,1985,0,1,1,null,0,0,0
+1641994265815,22,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004368-82251795/attachFile,22,0,0
+1641994265973,15,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994266152,43,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,43,0,16
+1641994266376,30,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004397-64842311,29,0,0
+1641994266537,14,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004397-64842311/downloadTemplate,13,0,0
+1641994268846,2,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,2055,0,1,1,null,0,0,0
+1641994268982,23,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004397-64842311/attachFile,23,0,0
+1641994269199,34,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994269387,33,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,33,0,13
+1641994269552,30,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004426-83510779,29,0,0
+1641994269715,13,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004426-83510779/downloadTemplate,13,0,0
+1641994272078,2,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,2125,0,1,1,null,0,0,0
+1641994272198,24,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004426-83510779/attachFile,24,0,0
+1641994272350,14,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994272500,36,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,36,0,16
+1641994272666,31,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004455-45278033,30,0,0
+1641994272828,13,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004455-45278033/downloadTemplate,13,0,0
+1641994275140,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,2195,0,1,1,null,0,0,0
+1641994275263,22,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004455-45278033/attachFile,22,0,0
+1641994275422,25,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994275590,46,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,46,0,26
+1641994275767,29,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004484-23191186,29,0,0
+1641994275967,14,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004484-23191186/downloadTemplate,14,0,0
+1641994278341,3,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,2265,0,1,1,null,0,0,0
+1641994278472,22,Attach_File,500,Internal Server Error,Quantity_Based_SC 1-1,text,false,,674,1792,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004484-23191186/attachFile,22,0,0
+1641994278623,15,JSR223 Sampler,200,OK,Quantity_Based_SC 1-1,text,true,,0,0,1,1,null,0,0,0
+1641994278757,37,Create_empty_SC,201,Created,Quantity_Based_SC 1-1,text,true,,1341,1995,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart,37,0,17
+1641994278913,28,Add_PO_to_cart_BPO,200,OK,Quantity_Based_SC 1-1,text,true,,10920,2009,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004513-12521474,28,0,0
+1641994279076,14,Download_Template,200,OK,Quantity_Based_SC 1-1,text,true,,8686,1766,1,1,https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22012-7650-10004513-12521474/downloadTemplate,14,0,0
+1641994281531,2,Update Excel,0,OK,Quantity_Based_SC 1-1,text,true,,2335,0,1,1,null,0,0,0
