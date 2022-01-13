@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.4.1">
+  <hashTree>
+    <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+      <collectionProp name="Arguments.arguments">
+        <elementProp name="kubeconfig" elementType="Argument">
+          <stringProp name="Argument.name">kubeconfig</stringProp>
+          <stringProp name="Argument.value">${__P(kubeconfig,&quot;C:\Users\ecghjkc\OneDrive - Ericsson AB\KPI\slimConfig&quot;)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="prefix" elementType="Argument">
+          <stringProp name="Argument.name">prefix</stringProp>
+          <stringProp name="Argument.value">test</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="kpiConfigFile" elementType="Argument">
+          <stringProp name="Argument.name">kpiConfigFile</stringProp>
+          <stringProp name="Argument.value">${__P(kpiConfigFile,/home/zbrulci/sc_buc1334/generateReport/KPIConfig_7POs.xml)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="reportPath" elementType="Argument">
+          <stringProp name="Argument.name">reportPath</stringProp>
+          <stringProp name="Argument.value">${__P(reportPath,/home/zbrulci/sc_buc1334/generateReport)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+          <stringProp name="Argument.desc">path should not container underscore &apos;_&apos;</stringProp>
+        </elementProp>
+        <elementProp name="reportName" elementType="Argument">
+          <stringProp name="Argument.name">reportName</stringProp>
+          <stringProp name="Argument.value">${__P(reportName,scKPIResults)}</stringProp>
+          <stringProp name="Argument.desc">The name should not contain underscore &apos;_&apos;</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="overwrite" elementType="Argument">
+          <stringProp name="Argument.name">overwrite</stringProp>
+          <stringProp name="Argument.value">${__P(overwrite,true)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="logFile" elementType="Argument">
+          <stringProp name="Argument.name">logFile</stringProp>
+          <stringProp name="Argument.value">${__P(logFile,/home/zbrulci/sc_buc1334/generateReport/log.jtl)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="buildNo" elementType="Argument">
+          <stringProp name="Argument.name">buildNo</stringProp>
+          <stringProp name="Argument.value">${__P(buildNo,22.0.0)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="standardXml" elementType="Argument">
+          <stringProp name="Argument.name">standardXml</stringProp>
+          <stringProp name="Argument.value">${__P(logFile,C:\Users\ecghjkc\code\e2e_performance_validation\generateReport\standardResults.xml)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="generateReport" elementType="Argument">
+          <stringProp name="Argument.name">generateReport</stringProp>
+          <stringProp name="Argument.value">${__P(generateReport,true)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="JmeterTestStartTime" elementType="Argument">
+          <stringProp name="Argument.name">JmeterTestStartTime</stringProp>
+          <stringProp name="Argument.value">${__time()}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="namespace" elementType="Argument">
+          <stringProp name="Argument.name">namespace</stringProp>
+          <stringProp name="Argument.value">${__P(namespace,perf)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="heading" elementType="Argument">
+          <stringProp name="Argument.name">heading</stringProp>
+          <stringProp name="Argument.value">${__P(heading,100_loop_7POs)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="cwtoken" elementType="Argument">
+          <stringProp name="Argument.name">cwtoken</stringProp>
+          <stringProp name="Argument.value">eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI0VTI1YVVKZEtFZG11V0ljNEU2ajIyNFhRUUU0MTlleTRoOGQyTFlXRkljIn0.eyJleHAiOjE2MjA2NjA3MTIsImlhdCI6MTYyMDA1NTkxMiwianRpIjoiMmIwMzBkYjYtNGJjNi00M2M5LWI1ZmQtNzUyNWEzODdkM2YwIiwiaXNzIjoiaHR0cHM6Ly9lcmljLXNlYy1hY2Nlc3MtbWdtdC1odHRwOjg0NDMvYXV0aC9yZWFsbXMvZHhwIiwic3ViIjoiMGFlNjZhZWUtMGE3ZS00M2ExLTljMmUtOTI4YWFjYTUzMDAzIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYWRtaW4tY2xpIiwic2Vzc2lvbl9zdGF0ZSI6IjA3N2Q3NmNiLTNlODEtNGYzMC04ZWYzLTY1MTcxOWJhYzg5MSIsImFjciI6IjEiLCJzY29wZSI6IiIsImlhbV9yb2xlcyI6WyJjYW11bmRhIiwiQ1NSLWxldmVsMSIsIkVDTV9Vc2VyUHJvZmlsZUFkbWluaXN0cmF0b3JzIiwiRU9DX0pYQ19BRE1JTiIsIkVPQ19QQ19BRE1JTiIsIkVPQ19Vc2VyUHJvZmlsZUFkbWluaXN0cmF0b3JzIiwiSlhDX0FETUlOIiwiSlhDX0FkbWluaXN0cmF0b3IiLCJQTVVJIiwiVXNlciBQcm9maWxlIEFkbWluaXN0cmF0b3JzIl0sInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIn0.E568pWUotsOq-Q5Q7kyJNtvZBKEtsIOsvHtdh-4xEVg0QimvRmOAsdQ0YZXFVwfGs7rmqRY0N5NjZDamZH_Np67noyRL5RVyiBvYqnQCNRgLFrU3czowhfC0mXIDpbg0M37FgNNqke3w6tjuamVf_taGb4HSFQvRygfuKI9Vxy4gKqG8ySQqXrIsEKduaPVBNgbdV2_rTav65HJnNLG718RBsgoElr2KnYAqmYyOtF7nR0jxdpq2EObUjuaPtj8A8Jtg46FBgtODmg2L0P76peUyxrcaoUQbrodnQQ7tQjbJHYynNDmpxvm80urn38ue_jbkQvvcpZDlTDsaczZqiQ</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="protocol" elementType="Argument">
+          <stringProp name="Argument.name">protocol</stringProp>
+          <stringProp name="Argument.value">${__P(protocol,https)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="cpq_server" elementType="Argument">
+          <stringProp name="Argument.name">cpq_server</stringProp>
+          <stringProp name="Argument.value">${__P(cpq_server,edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="cpq_port" elementType="Argument">
+          <stringProp name="Argument.name">cpq_port</stringProp>
+          <stringProp name="Argument.value">${__P(cpq_port,30000)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="cpq_protocol" elementType="Argument">
+          <stringProp name="Argument.name">cpq_protocol</stringProp>
+          <stringProp name="Argument.value">${__P(protocol,https)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="totalThread" elementType="Argument">
+          <stringProp name="Argument.name">totalThread</stringProp>
+          <stringProp name="Argument.value">${__P(totalThreads,1)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+          <stringProp name="Argument.desc">Number of thread(s) used for run</stringProp>
+        </elementProp>
+        <elementProp name="loopCount" elementType="Argument">
+          <stringProp name="Argument.name">loopCount</stringProp>
+          <stringProp name="Argument.value">${__P(loopCount,1)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="PO1CHARA" elementType="Argument">
+          <stringProp name="Argument.name">PO1CHARA</stringProp>
+          <stringProp name="Argument.value">${__P(po1chara,  )}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+          <stringProp name="Argument.desc">PO_MVP_PRE_MSISDN_STD</stringProp>
+        </elementProp>
+        <elementProp name="PO3CHARA" elementType="Argument">
+          <stringProp name="Argument.name">PO3CHARA</stringProp>
+          <stringProp name="Argument.value">${__P(po3chara,)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="PO5CHARA" elementType="Argument">
+          <stringProp name="Argument.name">PO5CHARA</stringProp>
+          <stringProp name="Argument.value">${__P(po5chara, )}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+          <stringProp name="Argument.desc">PO_MVP_PRE_SIM_CARD</stringProp>
+        </elementProp>
+        <elementProp name="BPO" elementType="Argument">
+          <stringProp name="Argument.name">BPO</stringProp>
+          <stringProp name="Argument.value">${__P(bpo,BPO_4Cart_1Char_KPI)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+          <stringProp name="Argument.desc">BPO_MVP_PRE_AC_STD_10</stringProp>
+        </elementProp>
+        <elementProp name="quantity" elementType="Argument">
+          <stringProp name="Argument.name">quantity</stringProp>
+          <stringProp name="Argument.value">${__P(quantity,4)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="poCount" elementType="Argument">
+          <stringProp name="Argument.name">poCount</stringProp>
+          <stringProp name="Argument.value">${__P(npos,1)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+          <stringProp name="Argument.desc">Number of POs</stringProp>
+        </elementProp>
+        <elementProp name="server_eoc" elementType="Argument">
+          <stringProp name="Argument.name">server_eoc</stringProp>
+          <stringProp name="Argument.value">${__P(server,edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="port" elementType="Argument">
+          <stringProp name="Argument.name">port</stringProp>
+          <stringProp name="Argument.value">${__P(port,30000)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="minio_url" elementType="Argument">
+          <stringProp name="Argument.name">minio_url</stringProp>
+          <stringProp name="Argument.value">${__P(minio_url,10.61.37.208)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="accesskey" elementType="Argument">
+          <stringProp name="Argument.name">accesskey</stringProp>
+          <stringProp name="Argument.value">${__P(accesskey,TESTPKEY)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="secretkey" elementType="Argument">
+          <stringProp name="Argument.name">secretkey</stringProp>
+          <stringProp name="Argument.value">${__P(secretkey,TESTPKEY)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+        <elementProp name="namespace" elementType="Argument">
+          <stringProp name="Argument.name">namespace</stringProp>
+          <stringProp name="Argument.value">${__P(namespace,)}</stringProp>
+          <stringProp name="Argument.metadata">=</stringProp>
+        </elementProp>
+      </collectionProp>
+    </Arguments>
+    <hashTree/>
+  </hashTree>
+</jmeterTestPlan>
