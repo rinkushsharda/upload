@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="1021" it="0" lt="0" ct="0" ts="1642610259352" s="true" lb="Set StartTime" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="908" it="0" lt="904" ct="715" ts="1642610260622" s="true" lb="Get CWToken" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-1" dt="text" by="1667" sby="223" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/avmSecurity/getToken</java.net.URL>
+</httpSample>
+<sample t="33" it="0" lt="0" ct="0" ts="1642610266844" s="true" lb="Set StartTime" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-2" dt="text" by="13" sby="0" ng="2" na="2"/>
+<httpSample t="231" it="0" lt="231" ct="56" ts="1642610266884" s="true" lb="Get CWToken" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-2" dt="text" by="1667" sby="223" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/avmSecurity/getToken</java.net.URL>
+</httpSample>
+<httpSample t="2858" it="0" lt="2855" ct="0" ts="1642610267118" s="true" lb="Pre_Create_SC_with_BPO" rc="201" rm="Created" tn="KPI_Existing_Customer_Create_Test_Data 1-2" dt="text" by="7901" sby="2011" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/</java.net.URL>
+</httpSample>
+<httpSample t="978" it="0" lt="972" ct="0" ts="1642610269988" s="true" lb="Add_Cart_Item_Optional_POs" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-2" dt="text" by="9086" sby="2058" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798666-49976091</java.net.URL>
+</httpSample>
+<httpSample t="884" it="0" lt="877" ct="0" ts="1642610270968" s="true" lb="Add_Cart_Item_Optional_POs" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-2" dt="text" by="10712" sby="2058" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798666-49976091</java.net.URL>
+</httpSample>
+<httpSample t="814" it="0" lt="809" ct="0" ts="1642610271855" s="true" lb="Add_Cart_Item_Optional_POs" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-2" dt="text" by="12338" sby="2058" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798666-49976091</java.net.URL>
+</httpSample>
+<httpSample t="828" it="0" lt="823" ct="0" ts="1642610272671" s="true" lb="Add_Cart_Item_Optional_POs" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-2" dt="text" by="13972" sby="2058" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798666-49976091</java.net.URL>
+</httpSample>
+<httpSample t="898" it="0" lt="897" ct="0" ts="1642610273502" s="true" lb="Pre_Validate_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-2" dt="text" by="417" sby="1697" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798666-49976091/validate</java.net.URL>
+</httpSample>
+<httpSample t="873" it="0" lt="871" ct="0" ts="1642610274402" s="true" lb="Pre_Price_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-2" dt="text" by="13924" sby="1694" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798666-49976091/price</java.net.URL>
+</httpSample>
+<httpSample t="680" it="0" lt="676" ct="0" ts="1642610275277" s="true" lb="Pre_Present_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-2" dt="text" by="14055" sby="1830" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798666-49976091/setState</java.net.URL>
+</httpSample>
+<httpSample t="623" it="0" lt="621" ct="0" ts="1642610275959" s="true" lb="Pre_Accept_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-2" dt="text" by="14054" sby="1828" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798666-49976091/setState</java.net.URL>
+</httpSample>
+<httpSample t="15747" it="0" lt="15747" ct="0" ts="1642610261591" s="true" lb="Pre_Create_SC_with_BPO" rc="201" rm="Created" tn="KPI_Existing_Customer_Create_Test_Data 1-1" dt="text" by="7901" sby="2011" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/</java.net.URL>
+</httpSample>
+<httpSample t="1670" it="0" lt="1669" ct="0" ts="1642610277344" s="true" lb="Add_Cart_Item_Optional_POs" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-1" dt="text" by="9086" sby="2058" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798661-36728863</java.net.URL>
+</httpSample>
+<httpSample t="1216" it="0" lt="1214" ct="0" ts="1642610279017" s="true" lb="Add_Cart_Item_Optional_POs" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-1" dt="text" by="10712" sby="2058" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798661-36728863</java.net.URL>
+</httpSample>
+<httpSample t="1198" it="0" lt="1196" ct="0" ts="1642610280241" s="true" lb="Add_Cart_Item_Optional_POs" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-1" dt="text" by="12338" sby="2058" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798661-36728863</java.net.URL>
+</httpSample>
+<httpSample t="1207" it="0" lt="1204" ct="0" ts="1642610281441" s="true" lb="Add_Cart_Item_Optional_POs" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-1" dt="text" by="13972" sby="2058" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798661-36728863</java.net.URL>
+</httpSample>
+<httpSample t="1341" it="0" lt="1341" ct="0" ts="1642610282650" s="true" lb="Pre_Validate_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-1" dt="text" by="417" sby="1697" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798661-36728863/validate</java.net.URL>
+</httpSample>
+<httpSample t="1914" it="0" lt="1912" ct="0" ts="1642610283993" s="true" lb="Pre_Price_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-1" dt="text" by="13924" sby="1694" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798661-36728863/price</java.net.URL>
+</httpSample>
+<httpSample t="913" it="0" lt="911" ct="0" ts="1642610285909" s="true" lb="Pre_Present_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-1" dt="text" by="14055" sby="1830" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798661-36728863/setState</java.net.URL>
+</httpSample>
+<httpSample t="963" it="0" lt="960" ct="0" ts="1642610286823" s="true" lb="Pre_Accept_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-1" dt="text" by="14054" sby="1828" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798661-36728863/setState</java.net.URL>
+</httpSample>
+<httpSample t="11828" it="0" lt="11828" ct="0" ts="1642610277413" s="true" lb="Pre_Submit_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-2" dt="text" by="1359" sby="1695" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798666-49976091/submit</java.net.URL>
+</httpSample>
+<sample t="22125" it="0" lt="21229" ct="0" ts="1642610267117" s="true" lb="CREATE TEST DATA" rc="200" rm="Number of samples in transaction : 11, number of failing samples : 0" tn="KPI_Existing_Customer_Create_Test_Data 1-2" dt="" by="97818" sby="18987" ng="2" na="2"/>
+<httpSample t="42308" it="0" lt="42308" ct="0" ts="1642610288239" s="true" lb="Pre_Submit_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Create_Test_Data 1-1" dt="text" by="1333" sby="1695" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798661-36728863/submit</java.net.URL>
+</httpSample>
+<sample t="68958" it="0" lt="68462" ct="0" ts="1642610261590" s="true" lb="CREATE TEST DATA" rc="200" rm="Number of samples in transaction : 11, number of failing samples : 0" tn="KPI_Existing_Customer_Create_Test_Data 1-1" dt="" by="97792" sby="18987" ng="1" na="1"/>
+<sample t="32" it="0" lt="0" ct="0" ts="1642610330576" s="true" lb="Set StartTime" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="13" sby="0" ng="1" na="1"/>
+<httpSample t="250" it="0" lt="250" ct="50" ts="1642610330610" s="true" lb="Get CWToken" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="1667" sby="223" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/avmSecurity/getToken</java.net.URL>
+</httpSample>
+<sample t="36" it="0" lt="0" ct="0" ts="1642610338074" s="true" lb="Set StartTime" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="13" sby="0" ng="2" na="2"/>
+<httpSample t="202" it="0" lt="202" ct="30" ts="1642610338113" s="true" lb="Get CWToken" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="1667" sby="223" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/avmSecurity/getToken</java.net.URL>
+</httpSample>
+<httpSample t="3050" it="0" lt="3050" ct="0" ts="1642610338317" s="true" lb="T1_Create_SC_Customer_InstallBase" rc="201" rm="Created" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="1293" sby="1922" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/</java.net.URL>
+</httpSample>
+<httpSample t="792" it="0" lt="792" ct="0" ts="1642610341371" s="true" lb="T2_Add_Cart_Item_Optional_POs" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="2812" sby="1868" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798868-86517455</java.net.URL>
+</httpSample>
+<httpSample t="794" it="0" lt="794" ct="0" ts="1642610342165" s="true" lb="T3_Add_Cart_Item_Addon" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="4438" sby="1862" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798868-86517455</java.net.URL>
+</httpSample>
+<httpSample t="413" it="0" lt="412" ct="0" ts="1642610343299" s="true" lb="T4_Get_SC_By_Id" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="4390" sby="1680" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798868-86517455?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="929" it="0" lt="929" ct="0" ts="1642610343714" s="true" lb="T8_Validate_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="417" sby="1697" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798868-86517455/validate</java.net.URL>
+</httpSample>
+<httpSample t="14333" it="0" lt="14333" ct="0" ts="1642610330862" s="true" lb="T1_Create_SC_Customer_InstallBase" rc="201" rm="Created" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="1293" sby="1922" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/</java.net.URL>
+</httpSample>
+<httpSample t="927" it="0" lt="927" ct="0" ts="1642610344645" s="true" lb="T9_Price_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="5359" sby="1694" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798868-86517455/price</java.net.URL>
+</httpSample>
+<httpSample t="411" it="0" lt="411" ct="0" ts="1642610345574" s="true" lb="T6_Get_SC_By_Id_after_price" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="5359" sby="1680" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798868-86517455?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="687" it="0" lt="687" ct="0" ts="1642610345987" s="true" lb="T10_Present_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="5490" sby="1830" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798868-86517455/setState</java.net.URL>
+</httpSample>
+<httpSample t="2864" it="0" lt="2864" ct="0" ts="1642610345196" s="true" lb="T2_Add_Cart_Item_Optional_POs" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="2812" sby="1868" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798863-89601677</java.net.URL>
+</httpSample>
+<httpSample t="1571" it="0" lt="1570" ct="0" ts="1642610346676" s="true" lb="T12_Clone_SC" rc="201" rm="Created" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="5599" sby="1694" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798868-86517455/clone</java.net.URL>
+</httpSample>
+<httpSample t="1029" it="0" lt="1029" ct="0" ts="1642610348250" s="true" lb="Clone_SC_to_delete" rc="201" rm="Created" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="5599" sby="1694" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798868-86517455/clone</java.net.URL>
+</httpSample>
+<httpSample t="696" it="0" lt="695" ct="0" ts="1642610349281" s="true" lb="T11_Accept_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="5489" sby="1828" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798868-86517455/setState</java.net.URL>
+</httpSample>
+<httpSample t="2516" it="0" lt="2516" ct="0" ts="1642610348061" s="true" lb="T3_Add_Cart_Item_Addon" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="4438" sby="1862" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798863-89601677</java.net.URL>
+</httpSample>
+<httpSample t="600" it="0" lt="599" ct="0" ts="1642610351048" s="true" lb="T4_Get_SC_By_Id" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="4390" sby="1680" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798863-89601677?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="1243" it="0" lt="1243" ct="0" ts="1642610351649" s="true" lb="T8_Validate_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="417" sby="1697" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798863-89601677/validate</java.net.URL>
+</httpSample>
+<httpSample t="1908" it="0" lt="1908" ct="0" ts="1642610352894" s="true" lb="T9_Price_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="5359" sby="1694" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798863-89601677/price</java.net.URL>
+</httpSample>
+<httpSample t="603" it="0" lt="602" ct="0" ts="1642610354805" s="true" lb="T6_Get_SC_By_Id_after_price" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="5359" sby="1680" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798863-89601677?expand=true</java.net.URL>
+</httpSample>
+<httpSample t="899" it="0" lt="898" ct="0" ts="1642610355410" s="true" lb="T10_Present_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="5490" sby="1830" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798863-89601677/setState</java.net.URL>
+</httpSample>
+<httpSample t="1347" it="0" lt="1346" ct="0" ts="1642610356310" s="true" lb="T12_Clone_SC" rc="201" rm="Created" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="5599" sby="1694" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798863-89601677/clone</java.net.URL>
+</httpSample>
+<httpSample t="1365" it="0" lt="1364" ct="0" ts="1642610357660" s="true" lb="Clone_SC_to_delete" rc="201" rm="Created" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="5599" sby="1694" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798863-89601677/clone</java.net.URL>
+</httpSample>
+<httpSample t="941" it="0" lt="941" ct="0" ts="1642610359027" s="true" lb="T11_Accept_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="5489" sby="1828" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798863-89601677/setState</java.net.URL>
+</httpSample>
+<httpSample t="13122" it="0" lt="13122" ct="0" ts="1642610349979" s="true" lb="T16_Submit_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="1514" sby="1695" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798868-86517455/submit</java.net.URL>
+</httpSample>
+<httpSample t="2286" it="0" lt="2285" ct="0" ts="1642610363104" s="true" lb="T20_Revise_SC" rc="201" rm="Created" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="6102" sby="1695" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798868-86517455/revise</java.net.URL>
+</httpSample>
+<httpSample t="324" it="0" lt="323" ct="0" ts="1642610365392" s="true" lb="T17_Deactivate_Contract" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="5500" sby="2298" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798969-84776731</java.net.URL>
+</httpSample>
+<httpSample t="337" it="0" lt="336" ct="0" ts="1642610365717" s="true" lb="T15_Cancel_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="5588" sby="1836" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798969-84776731/setState</java.net.URL>
+</httpSample>
+<httpSample t="305" it="0" lt="305" ct="0" ts="1642610366057" s="true" lb="T13_Modify_SC_5Char" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="5634" sby="2749" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798994-57722355</java.net.URL>
+</httpSample>
+<httpSample t="337" it="0" lt="336" ct="0" ts="1642610366364" s="true" lb="T14_Modify_SC_10Char" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="5635" sby="3804" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798994-57722355</java.net.URL>
+</httpSample>
+<httpSample t="59" it="0" lt="0" ct="0" ts="1642610366703" s="true" lb="T18_Delete_SC" rc="204" rm="No Content" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="382" sby="1690" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798994-57722355</java.net.URL>
+</httpSample>
+<httpSample t="1836" it="0" lt="1836" ct="0" ts="1642610366763" s="true" lb="Create_SC_Customer_InstallBase_to_Swap" rc="201" rm="Created" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="1293" sby="1922" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/</java.net.URL>
+</httpSample>
+<httpSample t="406" it="0" lt="402" ct="0" ts="1642610368600" s="true" lb="Get SR_PO_ID" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="25137" sby="264" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/sr/v1/product/?relatedParties.role=Customer&amp;relatedParties.reference=kpi_cus_1_2&amp;name=BPO_MVP_PRE_TP_MAX</java.net.URL>
+</httpSample>
+<httpSample t="447" it="0" lt="446" ct="0" ts="1642610369020" s="true" lb="T21_Swap" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-2" dt="text" by="9790" sby="2096" ng="2" na="2">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12799182-70199741</java.net.URL>
+</httpSample>
+<sample t="31151" it="0" lt="30687" ct="0" ts="1642610338317" s="true" lb="PLACE ORDER" rc="200" rm="Number of samples in transaction : 21, number of failing samples : 0" tn="KPI_Existing_Customer_Test 2-2" dt="" by="112820" sby="39498" ng="2" na="2"/>
+<httpSample t="46869" it="0" lt="46868" ct="0" ts="1642610359970" s="true" lb="T16_Submit_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="1489" sby="1695" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798863-89601677/submit</java.net.URL>
+</httpSample>
+<httpSample t="589" it="0" lt="589" ct="46" ts="1642610406840" s="false" lb="T20_Revise_SC" rc="403" rm="Forbidden" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="524" sby="1695" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12798863-89601677/revise</java.net.URL>
+</httpSample>
+<httpSample t="908" it="0" lt="908" ct="0" ts="1642610407433" s="true" lb="T17_Deactivate_Contract" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="5500" sby="2298" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12799091-83763367</java.net.URL>
+</httpSample>
+<httpSample t="881" it="0" lt="881" ct="0" ts="1642610408343" s="true" lb="T15_Cancel_SC" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="5588" sby="1836" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12799091-83763367/setState</java.net.URL>
+</httpSample>
+<httpSample t="874" it="0" lt="874" ct="0" ts="1642610409227" s="true" lb="T13_Modify_SC_5Char" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="5634" sby="2749" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12799108-10332393</java.net.URL>
+</httpSample>
+<httpSample t="902" it="0" lt="902" ct="0" ts="1642610410103" s="true" lb="T14_Modify_SC_10Char" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="5635" sby="3804" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12799108-10332393</java.net.URL>
+</httpSample>
+<httpSample t="134" it="0" lt="0" ct="0" ts="1642610411006" s="true" lb="T18_Delete_SC" rc="204" rm="No Content" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="382" sby="1690" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12799108-10332393</java.net.URL>
+</httpSample>
+<httpSample t="11135" it="0" lt="11135" ct="0" ts="1642610411141" s="true" lb="Create_SC_Customer_InstallBase_to_Swap" rc="201" rm="Created" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="1293" sby="1922" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/</java.net.URL>
+</httpSample>
+<httpSample t="1069" it="0" lt="1060" ct="0" ts="1642610422278" s="true" lb="Get SR_PO_ID" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="80447" sby="264" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/eoc/sr/v1/product/?relatedParties.role=Customer&amp;relatedParties.reference=kpi_cus_1_1&amp;name=BPO_MVP_PRE_TP_MAX</java.net.URL>
+</httpSample>
+<httpSample t="1274" it="0" lt="1273" ct="0" ts="1642610423356" s="true" lb="T21_Swap" rc="200" rm="OK" tn="KPI_Existing_Customer_Test 2-1" dt="text" by="9762" sby="2096" ng="1" na="1">
+  <java.net.URL>https://edbtest.n103-vpod3-bss828-ipv4.seli.gic.ericsson.se/cpq/shoppingCart/v1/shoppingCart/22019-3811-12799243-17749969</java.net.URL>
+</httpSample>
+<sample t="93770" it="0" lt="93104" ct="46" ts="1642610330861" s="false" lb="PLACE ORDER" rc="" rm="Number of samples in transaction : 21, number of failing samples : 1" tn="KPI_Existing_Customer_Test 2-1" dt="" by="162499" sby="39498" ng="1" na="1"/>
+
+</testResults>
